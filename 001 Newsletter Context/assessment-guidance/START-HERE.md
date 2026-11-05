@@ -52,4 +52,4 @@ If setup blocks you for 15 minutes, ask for targeted troubleshooting with the er
 
 ## First action
 
-Auth.js Credentials is now chosen to keep things simple. **Create your private Stugit repository named `cmp6057a-001-newsletter`** (recommended name, not a university naming rule), then follow **Step 2** of [BUILD-BLUEPRINT.md](</home/zekiah/Projects/CMP/CMP-6057A (Advanced Web Development)/001 Newsletter Context/assessment-guidance/BUILD-BLUEPRINT.md>) to generate and run the project. The blueprint now starts with six concrete setup steps; leave the later reference tables until needed.
+Dependencies, Stugit and PostgreSQL are now set up. Open **“You have installed the tools. What next?”** at the top of [BUILD-BLUEPRINT.md](</home/zekiah/Projects/CMP/CMP-6057A (Advanced Web Development)/001 Newsletter Context/assessment-guidance/BUILD-BLUEPRINT.md>). Enable DaisyUI, then write the public navbar and registration form yourself. Focus on that one screen before building the others.

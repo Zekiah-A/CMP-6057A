@@ -2,6 +2,44 @@
 
 AI planning material only. No executable skeleton is supplied. **Chosen: Auth.js Credentials.** You chose it to keep things simple. Follow the numbered setup steps below first; the later tables are reference material. Simpler state without Redux is your stated preference.
 
+## You have installed the tools. What next?
+
+**Start here now; skip the installation section below.** Inspection on 5 November found dependencies installed, a root layout, a placeholder home page and no User/Newsletter models yet. Installation is complete enough to start; the application behaviour is what comes next.
+
+### The design brief in plain English
+
+This is a small publishing tool with two faces: a reader sees published newsletters; a signed-in author manages their own work. The university specifies the functions and security boundaries, but does not prescribe a pixel-perfect design or supplied mockup. Visual choices are yours. The following is a recommended minimal design, not an extra rubric.
+
+Use one shared top navigation, a centred content area, one accent colour, readable text and consistent buttons. No sidebar or marketing hero is needed. Public reader content can be cards; the dashboard can be a compact list. Start with a single column and improve wider-screen layout later.
+
+### What each screen should contain
+
+| URL | What the person sees | What the screen does |
+|---|---|---|
+| `/` | App name, one-sentence purpose, link to Newsletters | Small public entry point; elaborate landing design is unnecessary |
+| `/newsletters` | Heading; cards with image, title, author and full content; empty-state message | Guests read only Sent records. Full content here avoids an additional detail screen initially |
+| `/register` | Heading; optional name, email, password, confirm-password inputs; Create account; link to login; errors/pending/success feedback | Validates, stores a hashed password, then directs to login; confirm-password is a usability recommendation, not a required DB field |
+| `/login` | Heading; email/password; Sign in; link to register; generic failure/pending feedback | Auth.js Credentials sign-in; successful login opens dashboard |
+| `/dashboard` | “Your newsletters”; Create Newsletter; own records showing title/status/updated date, readable content and Edit/Delete controls | Owner-only list and viewing. Empty state points to Create; delete needs confirmation |
+| `/dashboard/create` | Title, content textarea, image URL, status selector, Create/Cancel; field errors/pending feedback | Starts at Draft, saves for session user, returns to dashboard |
+| `/dashboard/edit/[id]` | Same form with current values; Save/Cancel | Loads and updates only an owned record, including status |
+
+Global navigation: brand/home link and Newsletters for everyone. Guests get Log in/Register. Signed-in users get Dashboard, their name/email and Log out. Do not hardcode a logged-in identity; session-aware behaviour comes after authentication works.
+
+Suggested reusable components: **Navbar** for shared links, **NewsletterForm** for create/edit, **NewsletterCard** for public display. Extract further components only if you actually repeat something.
+
+### Your next 20–30 minutes: one screen, not seven
+
+1. Enable DaisyUI: it is installed but `app/globals.css` currently lacks its plugin declaration. Follow the two CSS lines in the official install instructions: https://daisyui.com/docs/install/nextjs/ . The declaration is `@plugin "daisyui";` after the existing Tailwind import. Check a button using the documented `btn` class. If it still looks unstyled, inspect CSS build output before changing dependencies.
+2. Write the shared Navbar yourself, initially with public links only. Put it above children in the existing root layout so it appears on each page. Lab3.0 pp10–16 is the relevant model; no authentication hook is needed yet.
+3. Write only `/register`: a labelled form with optional name, email, password and confirm-password; submit control; login link. Start with appearance and browser field behaviour. Lab5 pp18–21 shows the controlled-form approach. Do not copy its custom session/token machinery.
+4. Check narrow and wide browser sizes, labels and keyboard navigation. Stop visual work once the form is clear; no animations, theme picker or elaborate branding.
+5. Next write the User model and registration operation, connect this form, and confirm one new account is persisted with a hash. Then implement Auth.js login/logout. This gives one working flow before newsletter CRUD.
+
+A form that only looks finished is not yet a completed registration requirement. Avoid spending hours making every screen static before connecting the first one.
+
+**Separate setup correction:** your generated Prisma config is currently named `prisma7.config.ts`. The default filename expected by the earlier instructions is `prisma.config.ts`; rename it yourself, or deliberately use the CLI's explicit config option. Your schema has the generator/datasource but no models yet. Do not interpret installed Prisma as a completed database schema.
+
 ## 1. Get the project running: do these steps in order
 
 These are instructions for you to execute, not commands I have run. Stop after each **check**. You do not need to read the later component tables yet.
