@@ -1,0 +1,399 @@
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+         School of Computing Sciences
+
+
+
+
+            ACADEMIC YEAR                                    2026-2027
+
+            MODULE                                           CMP-6057A ADVANCED WEB DEVELOPMENT
+
+            ASSESSMENT NAME                                  Coursework 2
+
+            WEIGHTING                                        40%
+
+            SET BY                                           Dr Cheng Wang
+
+            CHECKED BY                                       Dr Jeannette Chin
+
+            RELEASE DATE                                     3 November 2026
+
+            SUBMISSION DATE                                  18 January 2027 at 15:00
+
+            SUBMISSION LOCATION                              Blackboard and CMP Stugit
+
+            FEEDBACK RETURN DATE                             15 February 2027
+
+
+
+         OVERVIEW & LEARNING OUTCOMES
+
+         Learning Outcomes Assessed:
+         Web Programming
+
+              able to use modern browser technologies and pretrained AI models to create an interactive WebAI
+              application
+
+              able to design and evaluate a web application that integrates browser inference with a local AI
+              service through a clear, safe interface
+
+         Professionalism
+
+              able to make justified technical choices, test limitations, communicate results and demonstrate
+              independent learning
+
+              able to practice and enhance employability skills through web development, presentations and
+              demonstrations.
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                         1/9
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+         TASK SPECIFICATION
+
+         Task Spec / Core Objectives:
+         Overview
+
+         For this individual assignment, design and build a Local Feedback Intelligence Assistant. Your
+         application will analyse public app-review data with a pretrained Transformers.js model and use a
+         lightweight local language model, accessed through Ollama, to propose a bounded follow-up action. A
+         person must review the proposal before it can be accepted.
+
+         The coursework assesses WebAI implementation. You may use techniques from the first half of the
+         module, but no particular framework, authentication system, or database is required or separately
+         marked. You will build the application from the ground up. No starter application is provided.
+
+         Model choice. The recommended baseline is Xenova/all-MiniLM-L6-v2 in Transformers.js and
+         gemma3:1b in Ollama. These are not compulsory. Suitable alternatives are welcomed when they meet
+         the capability, privacy and reproducibility requirements below. Choosing a larger or less common model
+         does not itself earn more marks.
+
+         Description
+
+         Build a web application that helps users explore and triage app reviews.
+
+         Public dataset:
+
+         Use the English classification data from Zero-shot Bilingual App Reviews Mining with Large Language
+         Models (Zenodo record 11066414). Select an English file from dataset/for_classification/.
+
+         Core Tasks:
+
+              Import and validate the user feedback data. Show its source, usable row count and clear errors.
+              Present feedback in a usable interface that supports selection and inspection.
+              Use a Transformers.js-compatible embedding model in the browser to implement one meaningful
+              semantic feature. Examples include intent classification, semantic search/ranking, or
+              related/duplicate-feedback discovery.
+              For selected feedback, send the text and relevant semantic evidence to one lightweight model
+              running locally through Ollama.
+              Display one closed, structured proposal containing at least an allowlisted action, a short rationale,
+              source-evidence reference(s), and a confidence or uncertainty indicator. Validate it locally and
+              require an explicit confirm or cancel decision before updating the interface.
+              Demonstrate and record test results for the semantic feature and the complete proposal flow,
+              including successful, ambiguous and failed cases. Clearly state the desirable features you
+              implemented in a single page user guide.
+
+         Model and runtime requirements:
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                               2/9
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+              Browser model: must run through Transformers.js from ONNX weights and support the chosen
+              semantic feature without a paid API key.
+              Local model: must run through Ollama locally and reliably attempt the chosen structured contract.
+              Documentation: state the exact model ID/tag and version, licence, approximate download size, test
+              hardware and reasons for each choice.
+              Reproducibility: record preprocessing, pooling/normalisation where relevant, prompts, schema,
+              thresholds and any fixed sample or seed.
+
+         Bounded-agent requirements:
+
+              Treat imported feedback and model output as untrusted data.
+              Restrict proposals to a small documented set of actions and validated arguments. The local model
+              may propose only actions defined by the application. It must not call a tool outside the documented
+              allowlist.
+              Show the proposed action and evidence before a human confirms or cancels it.
+              Reject malformed or disallowed output safely and provide a recoverable response when a model or
+              service is unavailable.
+
+         P1. Essential Features (50 marks):
+
+         Your application must support a complete flow from importing data to reviewing a proposed action.
+         Marks reward correctness, relevance, usability and technical reasoning rather than the use of a
+         particular web framework.
+
+              Application and data journey (10 marks)
+                Import, validate and display attributed public data through a clear review flow.
+
+              Transformers.js semantic feature (20 marks)
+                    Run embedding inference in the browser, use the embeddings for the chosen semantic feature,
+                    present interpretable evidence and handle ambiguous results appropriately.
+
+              Bounded local-agent (15 marks)
+                    Produce a useful structured proposal, validate its action and arguments, require user
+                    confirmation and handle invalid output or unavailable services safely.
+
+              Reliability, usability and code quality (5 marks)
+                 Provide clear status and error messages, a usable interface, maintainable code and reproducible
+                    setup instructions.
+
+         Minimum requirement. P1 cannot be fully met unless the submission demonstrates both a working
+         Transformers.js semantic feature and a locally generated proposal that requires user confirmation.
+
+         P2. Desirable features (25 marks):
+
+         Develop the application beyond the essential requirements by adding one substantial extension or a
+         small group of related features. Possible directions include:
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                             3/9
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+              Richer semantic analysis: add abstention, semantic search or clustering, retrieval-grounded
+              evidence, or a comparison of embedding approaches.
+              Stronger agent behaviour: support several allowlisted proposal types, an editable plan, staged
+              confirmation or reversible actions.
+              Tool or MCP integration: add one relevant read-only or reversible capability with argument validation
+              and explicit user confirmation.
+              Safety and reliability: test prompt injection, maintain an audit history, handle timeouts and retries,
+              repair invalid structured output, or test adversarial cases.
+              Interaction and explanation: show source evidence and similarity information, allow proposals to be
+              edited, improve accessibility, or handle low-confidence results clearly.
+
+         Note: P2 is assessed by the quality, relevance and evaluation of the extension, not by the number of
+         features implemented. The examples above are illustrative, not a checklist.
+
+         P3. In-person VIVA Defence (25 marks)
+
+         You will be allocated a slot of 10 minutes in the week commencing on Jan 18th, 2027 to defence your
+         work. This session is compulsory. You must bring your project code with you on the day and ready to
+         run your application in your allocated slot. Absence and without EC approval will result in a mark of zero
+         being awarded for this assessment.
+
+              The defence may include but not limited to:
+                 Live VIVA: You will be asked 2 random questions about your implementation.
+                    Live Code Modification: During your assessment session, you may be asked to make a simple 5-
+                    minute code adjustment.
+
+         Relationship to formative assessment
+
+         Lectures and laboratories introduce browser inference, Transformers.js, semantic representations, local
+         models and structured output, bounded agents and tool integration through independent examples.
+         They support the required knowledge but do not provide a staged coursework solution.
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                                4/9
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+         DELIVERABLES
+
+          1. Recorded demo video (.mp4) with no more than 10 minutes to be submitted to Blackboard.
+
+                    Show the application running from import to confirmed and cancelled proposals, including one
+                    safe failure or rejected output.
+                    Identify the browser and local models, explain the semantic evidence and validation boundary,
+                    and demonstrate any P2 features for which you claim marks.
+                    Include concise critical reflection. Do not rely on slides in place of demonstrating the genuine
+                    application.
+
+          2. Source code submission
+
+              Submit the complete source code to the CMP Stugit repository before due date, including
+              configuration files but do not include node_modules, builds, model caches, the full dataset and
+              secrets.
+              A README file with concise install/run steps; exact model and architecture; data/model attribution;
+              semantic method; proposal structure; action validation; limitations.
+              An AI_USAGE.md file detailing permitted AI-tool use and how outputs were integrated.
+
+         Note: Source code does not carry a separate mark, but markers will inspect it to verify the
+         demonstrated features and assess code quality. Missing, inaccessible or non-runnable source code
+         may prevent marks from being awarded for features that cannot be verified.
+
+          3. A single A4 page user guide (filename must be userguide.docx). Provide the URL to your CMP
+              stugit repo in this user guide, and clearly state the desirable features you have implemented.
+
+         Note: this guide will not be marked but it will help the markers to locate your source code in Stugit.
+
+          4. Compulsory in person VIVA. Each person will be given a 10-minutes slot to defend their work
+              submitted. Exact time slot will be advised nearer the time. This in-person viva attendance is
+              mandatory. Failure to attend and without EC approval will result in a mark of zero being awarded to
+              this assessment.
+
+         Note: Extension is not available for this assessment for the reason of in-person viva. Students are
+         advised to apply EC (if they have a EC case) if they could not meet the due date.
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                                5/9
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+         RESOURCES & CONTACT
+
+         Resources
+
+              Approved dataset: Zenodo record 11066414
+              Transformers.js documentation
+              Transformers.js pipeline tasks
+              Suggested browser model: Xenova/all-MiniLM-L6-v2
+              Ollama model library
+              Suggested local model: Gemma 3
+              Ollama API
+              Ollama structured outputs
+
+         Note: Model availability and exact file sizes can change. Record the identifiers and versions actually
+         used, and ensure the assessor can reproduce your setup from the submitted README.
+
+
+         Contact Information:
+
+         Assessment Setter: Cheng.C.Wang@uea.ac.uk
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                           6/9
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+         EVALUATION & GRADING
+
+         The marking scheme is outlined below:
+
+         Essential Features (50%)
+
+
+           Criterion                                                                                         Feedback     Mark
+
+           Application and data journey (10 marks)
+
+           Transformers.js semantic feature (20 marks)
+
+           Bounded local-agent design (15 marks)
+
+           Reliability, usability and code quality (5 marks)
+
+
+         Desirable Features (25%)
+
+
+           Feedback                                                                                                Mark
+
+                                                                                                                    /25
+
+
+         Oral Defence (25%)
+
+
+           Feedback                                                                                                Mark
+
+                                                                                                                    /25
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                                          7/9
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+            PLEASE READ ALL THE INFORMATION BELOW CAREFULLY
+
+
+
+         ACADEMIC INTEGRITY
+
+         The University takes academic integrity very seriously. You must not commit plagiarism, collusion, or
+         contract cheating in your submitted work. Our Policy on Plagiarism, Collusion, and Contract Cheating
+         explains:
+
+              what is meant by the terms 'plagiarism', 'collusion', and 'contract cheating'
+              how to avoid plagiarism, collusion, and contract cheating
+              using a proofreader
+              what will happen if we suspect that you have breached the policy.
+
+         It is essential that you read this policy, and you undertake (or refresh your memory of) our school's
+         training on this. You can find the policy and related guidance here:
+
+         https://my.uea.ac.uk/departments/learningand-teaching/students/academic-cycle/regulations-and-
+         discipline/plagiarism-awareness
+
+
+
+             In this assessment, working with others is NOT PERMITTED. All aspects of your submission,
+             including but not limited to: research, design, development and writing, must be your own
+             work according to your own understanding of topics. Please pay careful attention to the
+             definitions of contract cheating, plagiarism and collusion in the policy and ask your
+             assessment setter if you are unsure about anything.
+
+
+
+         AI POLICY AND USE
+
+         To ensure fairness and clarity, this module uses a Traffic Light system to outline exactly how you
+         can and cannot use generative AI tools for your assessment.
+
+
+                            🔴 RED                                        🟡 AMBER                             🟢 GREEN ✓
+
+             🟢 GREEN: FULL AI INTEGRATION ENCOURAGED
+             Generative AI tools are permitted and/or are a core component of this assessment.
+
+             Permitted Uses: You may use AI tools to assist with debugging.
+
+             Declaration Requirement: You must include an AI_USAGE.md file detailing which tools were
+             used and how outputs were integrated. You remain fully responsible for the accuracy of any AI-
+             generated content.
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                                  8/9
+02/11/2026, 11:44                                                             UEA Assessment Brief Builder
+
+
+
+
+             APPROVAL
+             Signed off at version 3 of this brief.
+
+             Checker: Check completed by Dr Jeannette Chin on 2 November 2026
+
+             Cluster lead: Optional sign-off, not completed
+
+
+
+
+https://marking.cmp.uea.ac.uk/briefs/builder?brief=43c95bd2-bda6-4b6f-8398-14242eff26f8                      9/9
+

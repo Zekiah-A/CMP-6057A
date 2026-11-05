@@ -1,0 +1,63 @@
+{
+  "exported_at_utc": "2026-11-04T19:41:36.888315+00:00",
+  "items": 29,
+  "announcements": 12,
+  "attachment_references": 10,
+  "pdfs": 3,
+  "attachments": [
+    {
+      "path": "Module Resources/Successful Learning/Preparing for Assessment/ultraDocumentBody/_5793807_1/01-UNSAFE_HTML_20221128154139.html",
+      "bytes": 505,
+      "sha256": "98eeb79257c9c52f217f4f25d79c6cef4cffb02eac2cd4d2a19f94c567483df0"
+    },
+    {
+      "path": "Assessment/Assessment briefs/001 - Web Application Project Brief/ultraDocumentBody/_6068079_1/01-001-Advanced-Web-Development-v4.pdf",
+      "bytes": 169493,
+      "sha256": "fabff711e0eeb09ed247f70a5f225bdde349c656ee74cac4f420bccdd3002941"
+    },
+    {
+      "path": "Assessment/Assessment briefs/001 - Web Application Project Brief/ultraDocumentBody/_6068079_1/02-CMP-7057A - Report latex template .zip",
+      "bytes": 118285,
+      "sha256": "0a698b6ec9eb79b169bbf6ec05a61ff3144cedba19efcf028097e2db8ebdd77c"
+    },
+    {
+      "path": "Assessment/Assessment briefs/001 - Viva slots/ultraDocumentBody/_6068087_1/01-6057-7057 001 VIVA slots-v3.pdf",
+      "bytes": 38578,
+      "sha256": "8ae633e9679731c03af0a1c7269a13204a2b86274d89f74907957f419f166bbc"
+    },
+    {
+      "path": "Assessment/Assessment briefs/002 Implementing WebAI/ultraDocumentBody/_6142678_1/01-Coursework 002 Brief.pdf",
+      "bytes": 486758,
+      "sha256": "8b911f385bec3e9c2e400d9fada43d5812f285cc801796945a53d463da5baa7a"
+    },
+    {
+      "path": "Formative Assessment/Assessment Guidance - Coursework/_5793790_1/01-Assessment Guidance - Coursework",
+      "bytes": 6697,
+      "sha256": "026cd342337220ae1362779feb6504333e7ca426b10c2d765db992f367113c36"
+    },
+    {
+      "path": "Summative Assessment/{001}{CMP-7057A-26-SEM1-A}/_6115947_1/01-submission guidance",
+      "bytes": 6697,
+      "sha256": "026cd342337220ae1362779feb6504333e7ca426b10c2d765db992f367113c36"
+    },
+    {
+      "path": "Summative Assessment/{001}{CMP-6057A-26-SEM1-A}/_6115945_1/01-submission guidance",
+      "bytes": 6697,
+      "sha256": "026cd342337220ae1362779feb6504333e7ca426b10c2d765db992f367113c36"
+    },
+    {
+      "path": "Summative Assessment/Assessment Guidance - Coursework/_5793791_1/01-Assessment Guidance - Coursework",
+      "bytes": 6697,
+      "sha256": "026cd342337220ae1362779feb6504333e7ca426b10c2d765db992f367113c36"
+    },
+    {
+      "path": "Announcements/Week 5/_533381_1/01-QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png",
+      "bytes": 2092794,
+      "sha256": "c610cde8574fb5e0af7b74ac35b9edc4491c332732886117a2c29ac00e05dc41"
+    }
+  ],
+  "limitations": [
+    "Assessment Q+A discussion posts and external/LTI services are not exported.",
+    "Assessment path selection includes assessment preparation resources, formative and summative content."
+  ]
+}

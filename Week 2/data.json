@@ -1,0 +1,768 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1000000,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "S85NCwAAQBAJ",
+      "etag": "7RmPtAl9wv4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/S85NCwAAQBAJ",
+      "volumeInfo": {
+        "title": "It",
+        "subtitle": "A Novel",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2016-01-05",
+        "description": "Stephen King's classic #1 New York Times bestseller and the basis for the massively successful films It: Chapter One and It: Chapter Two as well as inspiration for HBO Max’s upcoming Welcome to Derry—about seven adults who return to their hometown to confront a nightmare they had first stumbled upon as teenagers...an evil without a name: It. Welcome to Derry, Maine. It’s a small city, a place as hauntingly familiar as your own hometown. Only in Derry the haunting is real. They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into the big world to gain success and happiness. But the promise they made twenty-eight years ago calls them reunite in the same place where, as teenagers, they battled an evil creature that preyed on the city’s children. Now, children are being murdered again and their repressed memories of that terrifying summer return as they prepare to once again battle the monster lurking in Derry’s sewers. Readers of Stephen King know that Derry, Maine, is a place with a deep, dark hold on the author. It reappears in many of his books, including Bag of Bones, Hearts in Atlantis, and 11/22/63. But it all starts with It. “Stephen King’s most mature work” (St. Petersburg Times), “It will overwhelm you…to be read in a well-lit room only” (Los Angeles Times).",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501142970"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1501142976"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 1168,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 23,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.8.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=S85NCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=S85NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=S85NCwAAQBAJ&printsec=frontcover&dq=stephen+king&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=S85NCwAAQBAJ&dq=stephen+king&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/It.html?hl=&id=S85NCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=S85NCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In 1985, six men and one woman are called back together to search for a creature of unspeakable evil that had stalked them as children."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-71sDwAAQBAJ",
+      "etag": "9UJHoq9nPEI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-71sDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Apt Pupil",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2018-12-04",
+        "description": "#1 New York Times bestselling author Stephen King’s timeless coming-of-age novella, Apt Pupil—published in his story collection Different Seasons and made into a movie starring Ian McKellan and Brad Renfro—is now available as a stand-alone publication. If you don’t believe in the existence of evil, you have a lot to learn. Todd Bowden is an apt pupil. Good grades, good family, a paper route. But he is about to meet a different kind of teacher, Mr. Dussander, and to learn all about Dussander’s dark and deadly past…a decades-old manhunt Dussander has escaped to this day. Yet Todd doesn’t want to turn his teacher in. Todd wants to know more. Much more. He is about to face his fears and learn the real meaning of power—and the seductive lure of evil. A classic story from Stephen King, Apt Pupil reveals layers upon layers of deception—and horror—as finally there is only one left standing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781982115456"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1982115459"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 224,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.17.16.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-71sDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-71sDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=-71sDwAAQBAJ&dq=stephen+king&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=-71sDwAAQBAJ&dq=stephen+king&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Apt_Pupil.html?hl=&id=-71sDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-71sDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A classic story from Stephen King, Apt Pupil reveals layers upon layers of deception—and horror—as finally there is only one left standing."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "giKIEAAAQBAJ",
+      "etag": "0V2IFSfDSew",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/giKIEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Stephen King",
+        "subtitle": "A Complete Exploration of His Work, Life, and Influences",
+        "authors": [
+          "Bev Vincent"
+        ],
+        "publisher": "becker&mayer! books ISBN",
+        "publishedDate": "2022-09-13",
+        "description": "Take an intimate tour through the life and works of Stephen King, made vivid with rare photos and ephemera from King’s personal collection. Even if you are a die-hard fan, you will find something new in this beautifully packaged Stephen King reference that you will return to again and again. Timed to celebrate Stephen King’s 75th birthday on September 21, 2022, Stephen King: A Complete Exploration of His Work, Life, and Influences reveals the inspiration behind the prolific author’s brilliant works of horror through a combination of photos and documents from King’s archives and an engaging account of the stories behind how his novels, novellas, short stories, and adaptations came to be. It might sound like a tall tale that Stephen King once met a bartender named Grady in an empty hotel in Colorado, or that the celebrated author helped his young daughter bury her cat in a nearby “pets sematary” after it was killed on a busy roadway. In this book, discover how King drew on these and more real personal experiences and mundane life events, then employed his extraordinary imagination to twist them into something horrific. From impoverished university student to struggling schoolteacher to one of the best-selling—and most recognizable—authors of all time, this engrossing book reveals the evolution and influences of Stephen King’s body of work over his nearly 50-year career, and how the themes of his writing reflect the changing times and events within his life. An expansion of Stephen King expert Bev Vincent’s The Stephen King Illustrated Companion, this fully revised, redesigned, and updated book includes: A review of King’s complete body of work, including Fairy Tale, published in September 2022. A wealth of rare memorabilia from King’s own collection, including personal and professional correspondences, handwritten manuscript pages, book covers, movie stills, and never-before-seen excerpts from one of his poems and an unpublished short story. Interludes on specific topics such as real-life settings that inspired King’s writing, the editor who discovered him, his life as a Boston Red Sox fan, and the many awards and honors he has received. Insightful quotes from King from interviews over the decades. Celebrate the beloved King of Horror with this informational and entertaining look inside King’s most iconic titles and the culture they have created.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780760376829"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0760376824"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 243,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=giKIEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=giKIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=giKIEAAAQBAJ&pg=PA231&dq=stephen+king&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=giKIEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=giKIEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 16.49,
+          "currencyCode": "GBP"
+        },
+        "retailPrice": {
+          "amount": 16.49,
+          "currencyCode": "GBP"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=giKIEAAAQBAJ&rdid=book-giKIEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 16490000,
+              "currencyCode": "GBP"
+            },
+            "retailPrice": {
+              "amountInMicros": 16490000,
+              "currencyCode": "GBP"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Stephen_King-sample-epub.acsm?id=giKIEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Stephen_King-sample-pdf.acsm?id=giKIEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=giKIEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eStephen King\u003c/b\u003e interview, uncut and unpublished,” Tim Adams, The Guardian, September 14, 2000. https://www. theguardian.com/books/2000/sep/14/\u003cb\u003estephenking\u003c/b\u003e.fiction, September 15, 2021. 157. “\u003cb\u003eStephen King\u003c/b\u003e part 2,” Hans-Åke Lilja, Lilja&#39;s&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "glMADAAAQBAJ",
+      "etag": "veomwb/RKUo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/glMADAAAQBAJ",
+      "volumeInfo": {
+        "title": "Desperation",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2016-04-26",
+        "description": "Several cross-country travelers--including a writer, a family on vacation, and a professor and his wife--end up in the little mining town of Desperation, where a crazy policeman and evil forces compel them to fight for their lives.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501143700"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1501143700"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 704,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=glMADAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=glMADAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=glMADAAAQBAJ&printsec=frontcover&dq=stephen+king&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=glMADAAAQBAJ&dq=stephen+king&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Desperation.html?hl=&id=glMADAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=glMADAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Several cross-country travelers--including a writer, a family on vacation, and a professor and his wife--end up in the little mining town of Desperation, where a crazy policeman and evil forces compel them to fight for their lives."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ANC7OQAACAAJ",
+      "etag": "9/PhmmgoHSI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ANC7OQAACAAJ",
+      "volumeInfo": {
+        "title": "Stephen King",
+        "authors": [
+          "Stephen King"
+        ],
+        "publishedDate": "1986-09",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1555800130"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781555800130"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 992,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=ANC7OQAACAAJ&dq=stephen+king&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=ANC7OQAACAAJ&dq=stephen+king&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Stephen_King.html?hl=&id=ANC7OQAACAAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ANC7OQAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "t-ArDgAAQBAJ",
+      "etag": "PhaYy4nrg10",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/t-ArDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Misery",
+        "subtitle": "A Novel",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2017-02-28",
+        "description": "After an almost fatal car crash, novelist Paul Sheldon finds himself being nursed by a deranged fan who holds him captive.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501156748"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1501156748"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 432,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=t-ArDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=t-ArDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=t-ArDgAAQBAJ&printsec=frontcover&dq=stephen+king&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=t-ArDgAAQBAJ&dq=stephen+king&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Misery.html?hl=&id=t-ArDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=t-ArDgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "After an almost fatal car crash, novelist Paul Sheldon finds himself being nursed by a deranged fan who holds him captive."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XVMADAAAQBAJ",
+      "etag": "/e0RWNWhH9Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XVMADAAAQBAJ",
+      "volumeInfo": {
+        "title": "Cujo",
+        "subtitle": "A Novel",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "1981",
+        "description": "Acute family dog turns into a vicious family killer in King's canine classic.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501143694"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1501143697"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 496,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=XVMADAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=XVMADAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=XVMADAAAQBAJ&printsec=frontcover&dq=stephen+king&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=XVMADAAAQBAJ&dq=stephen+king&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cujo.html?hl=&id=XVMADAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=XVMADAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Acute family dog turns into a vicious family killer in King&#39;s canine classic."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "PmiLEQAAQBAJ",
+      "etag": "C/9DYJbH0b8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/PmiLEQAAQBAJ",
+      "volumeInfo": {
+        "title": "Theorizing Stephen King",
+        "authors": [
+          "Michael Blouin"
+        ],
+        "publisher": "Taylor & Francis",
+        "publishedDate": "2025-10-01",
+        "description": "Readers of all stripes will find something to appreciate in this collection, which illuminates how King’s horror literature as a media form has shifted in relation to cultural understandings over time. Many chapters touch upon how surrounding texts, such as film/TV adaptations, have played into these mediations throughout King’s storied career. For the first-time reader of King, this volume offers a doorway into his works: an array of exciting critical frameworks with which to make sense of King’s fictional universe. For literary critics, this volume argues that King’s corpus remains a site for robust intellectual inquiry. And for all of us, the book provides an occasion—one that is long overdue—to rethink King’s relationship to critical theory as well as his legacy as a major American author. While it may prove impossible to reconcile King and the academy, we might nonetheless explore the evolution of their inescapable bond in hopes of negotiating a greater understanding between them.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781040792575"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "104079257X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 314,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=PmiLEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=PmiLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=PmiLEQAAQBAJ&pg=PT250&dq=stephen+king&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=PmiLEQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=PmiLEQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 45.99,
+          "currencyCode": "GBP"
+        },
+        "retailPrice": {
+          "amount": 34.79,
+          "currencyCode": "GBP"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=PmiLEQAAQBAJ&rdid=book-PmiLEQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 45990000,
+              "currencyCode": "GBP"
+            },
+            "retailPrice": {
+              "amountInMicros": 34790000,
+              "currencyCode": "GBP"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Theorizing_Stephen_King-sample-epub.acsm?id=PmiLEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Theorizing_Stephen_King-sample-pdf.acsm?id=PmiLEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=PmiLEQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... King , Stephen . &quot; America , Please Don&#39;t Re - elect This Ignorant , Dangerous Man . &quot; Twitter , 5 Jan. 5 , https://twitter.com/\u003cb\u003eStephenKing\u003c/b\u003e/status/1213868882626301952 . King , Stephen . &quot; Anyone Who Has to Call Himself a Genius&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "dZPOAAAACAAJ",
+      "etag": "EHZakQQ3Gts",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dZPOAAAACAAJ",
+      "volumeInfo": {
+        "title": "Stephen King 36",
+        "authors": [
+          "Stephen King"
+        ],
+        "publishedDate": "1984-11-01",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0451922832"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780451922830"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=dZPOAAAACAAJ&dq=stephen+king&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=dZPOAAAACAAJ&dq=stephen+king&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Stephen_King_36.html?hl=&id=dZPOAAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=dZPOAAAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "EeIVJhDlAAgC",
+      "etag": "nB9GSpiu2F0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EeIVJhDlAAgC",
+      "volumeInfo": {
+        "title": "Danse Macabre",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2010-02-23",
+        "description": "From the author of dozens of #1 \"New York Times\" bestsellers and the creator of many unforgettable movies comes a vivid, intelligent, and nostalgic journey through three decades of horror as experienced through the eyes of the most popular writer in the genre.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781439170984"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1439170983"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 512,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Collections"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.3.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=EeIVJhDlAAgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=EeIVJhDlAAgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=EeIVJhDlAAgC&printsec=frontcover&dq=stephen+king&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=EeIVJhDlAAgC&dq=stephen+king&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Danse_Macabre.html?hl=&id=EeIVJhDlAAgC"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=EeIVJhDlAAgC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Before he gave us the “one of a kind classic” (The Wall Street Journal) memoir On Writing, Stephen King wrote a nonfiction masterpiece in Danse Macabre, “one of the best books on American popular culture” (Philadelphia Inquirer)."
+      }
+    }
+  ]
+}

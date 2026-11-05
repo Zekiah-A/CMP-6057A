@@ -1,0 +1,382 @@
+[
+  {
+    "id": "1",
+    "title": "The Quantum Computing Breakthrough",
+    "slug": "quantum-computing-breakthrough",
+    "author": {
+      "name": "Sarah Chen",
+      "email": "sarah.chen@techpulse.io"
+    },
+    "subject_line": "⚡ Why classical encryption might be obsolete sooner than you think",
+    "preview_text": "A deep dive into topological qubits, room-temperature superconductors, and what it means for cybersecurity.",
+    "status": "sent",
+    "sent_at": "2026-07-15T08:30:00Z",
+    "subscriber_count": 14250,
+    "stats": {
+      "open_rate": 0.482,
+      "click_rate": 0.124
+    },
+    "tags": ["technology", "quantum", "cybersecurity"]
+  },
+  {
+    "id": "2",
+    "title": "Minimalist Design in the AI Era",
+    "slug": "minimalist-design-ai-era",
+    "author": {
+      "name": "Marcus Vance",
+      "email": "marcus@designnotes.co"
+    },
+    "subject_line": "🎨 Less noise, more intent: Designing interfaces for generative UI",
+    "preview_text": "How dynamic UI generation is shifting our visual frameworks from fixed grids to fluid systems.",
+    "status": "sent",
+    "sent_at": "2026-07-18T14:15:00Z",
+    "subscriber_count": 8900,
+    "stats": {
+      "open_rate": 0.521,
+      "click_rate": 0.189
+    },
+    "tags": ["design", "ui-ux", "generative-ai"]
+  },
+  {
+    "id": "3",
+    "title": "The Sunday Espresso: Issue #142",
+    "slug": "sunday-espresso-issue-142",
+    "author": {
+      "name": "Elena Rostova",
+      "email": "elena@sundayespresso.com"
+    },
+    "subject_line": "☕ 5 mental models for better decision-making this week",
+    "preview_text": "In this issue: second-order thinking, inversion, the Lindy effect, and three great book recommendations.",
+    "status": "scheduled",
+    "sent_at": "2026-07-26T07:00:00Z",
+    "subscriber_count": 32100,
+    "stats": {
+      "open_rate": 0.0,
+      "click_rate": 0.0
+    },
+    "tags": ["productivity", "mental-models", "lifestyle"]
+  },
+  {
+    "id": "4",
+    "title": "DevOps Weekly: Kubernetes 1.32 Breakdown",
+    "slug": "devops-weekly-k8s-132",
+    "author": {
+      "name": "Alex Rivera",
+      "email": "alex@cloudnative.dev"
+    },
+    "subject_line": "🛠️ What's new in Kubernetes 1.32 + custom CRD patterns",
+    "preview_text": "We break down memory optimizations, sidecar container enhancements, and rust-based controllers.",
+    "status": "draft",
+    "sent_at": null,
+    "subscriber_count": 19400,
+    "stats": {
+      "open_rate": 0.0,
+      "click_rate": 0.0
+    },
+    "tags": ["devops", "kubernetes", "cloud"]
+  },
+  {
+    "id": "5",
+    "title": "Frontend Frontier: React 19 in Production",
+    "slug": "frontend-frontier-react-19",
+    "author": {
+      "name": "Jessica Taylor",
+      "email": "jess@frontendfrontier.com"
+    },
+    "subject_line": "⚛️ React 19 Actions, Server Components, and real-world perf wins",
+    "preview_text": "Lessons learned from migrating a high-traffic e-commerce app to the latest React primitives.",
+    "status": "sent",
+    "sent_at": "2026-07-10T11:00:00Z",
+    "subscriber_count": 25600,
+    "stats": {
+      "open_rate": 0.441,
+      "click_rate": 0.153
+    },
+    "tags": ["frontend", "react", "javascript"]
+  },
+  {
+    "id": "6",
+    "title": "Fintech Pulse: Web3 Banking Trends",
+    "slug": "fintech-pulse-web3-banking",
+    "author": {
+      "name": "David O'Connor",
+      "email": "david@fintechpulse.io"
+    },
+    "subject_line": "💳 Tokenized real-world assets and modern neobank architectures",
+    "preview_text": "How traditional institutions are integrating permissioned blockchains for instant cross-border settlement.",
+    "status": "sent",
+    "sent_at": "2026-07-12T16:45:00Z",
+    "subscriber_count": 11200,
+    "stats": {
+      "open_rate": 0.395,
+      "click_rate": 0.098
+    },
+    "tags": ["fintech", "banking", "crypto"]
+  },
+  {
+    "id": "7",
+    "title": "AI Product Insider: Agentic Workflows",
+    "slug": "ai-product-insider-agentic-workflows",
+    "author": {
+      "name": "Priya Sharma",
+      "email": "priya@aipack.ai"
+    },
+    "subject_line": "🤖 Building reliable autonomous agents without continuous looping",
+    "preview_text": "Practical design patterns for state management, tool selection, and fallback mechanisms in AI agents.",
+    "status": "sent",
+    "sent_at": "2026-07-14T09:15:00Z",
+    "subscriber_count": 41800,
+    "stats": {
+      "open_rate": 0.589,
+      "click_rate": 0.231
+    },
+    "tags": ["ai", "product-management", "llm"]
+  },
+  {
+    "id": "8",
+    "title": "Sustainable Tech Digest",
+    "slug": "sustainable-tech-digest-july",
+    "author": {
+      "name": "Liam Thorne",
+      "email": "liam@greentech.org"
+    },
+    "subject_line": "🌱 Green datacenters: Direct-to-chip liquid cooling systems",
+    "preview_text": "Reducing hyper-scaler PUE ratios with closed-loop fluid cooling and renewable microgrids.",
+    "status": "sent",
+    "sent_at": "2026-07-08T13:00:00Z",
+    "subscriber_count": 6400,
+    "stats": {
+      "open_rate": 0.412,
+      "click_rate": 0.105
+    },
+    "tags": ["sustainability", "data-centers", "hardware"]
+  },
+  {
+    "id": "9",
+    "title": "Data Engineering Weekly",
+    "slug": "data-engineering-weekly-iceberg",
+    "author": {
+      "name": "Ananya Roy",
+      "email": "ananya@dataweekly.dev"
+    },
+    "subject_line": "📊 Apache Iceberg vs. Delta Lake: 2026 Performance Benchmarks",
+    "preview_text": "Query engine speed tests across Snowflake, Databricks, and DuckDB with 10TB datasets.",
+    "status": "sent",
+    "sent_at": "2026-07-17T10:00:00Z",
+    "subscriber_count": 18100,
+    "stats": {
+      "open_rate": 0.467,
+      "click_rate": 0.162
+    },
+    "tags": ["data-engineering", "sql", "big-data"]
+  },
+  {
+    "id": "10",
+    "title": "The Bootstrapped SaaS Handbook",
+    "slug": "bootstrapped-saas-handbook-45",
+    "author": {
+      "name": "Tom Hollander",
+      "email": "tom@saasindie.com"
+    },
+    "subject_line": "🚀 From $0 to $10k MRR: Our exact cold email outreach framework",
+    "preview_text": "Templates, domain warmup strategies, and conversion metrics from our latest B2B campaign.",
+    "status": "scheduled",
+    "sent_at": "2026-07-28T12:00:00Z",
+    "subscriber_count": 15300,
+    "stats": {
+      "open_rate": 0.0,
+      "click_rate": 0.0
+    },
+    "tags": ["saas", "marketing", "entrepreneurship"]
+  },
+  {
+    "id": "11",
+    "title": "CyberSec Daily Briefing",
+    "slug": "cybersec-daily-july-19",
+    "author": {
+      "name": "Viktor Hansen",
+      "email": "viktor@secbrief.io"
+    },
+    "subject_line": "🚨 Zero-day vulnerability patched in popular OAuth provider",
+    "preview_text": "Immediate mitigation steps, CVE analysis, and affected SDK version lists.",
+    "status": "sent",
+    "sent_at": "2026-07-19T06:00:00Z",
+    "subscriber_count": 28900,
+    "stats": {
+      "open_rate": 0.634,
+      "click_rate": 0.312
+    },
+    "tags": ["security", "vulnerabilities", "infosec"]
+  },
+  {
+    "id": "12",
+    "title": "Mobile Dev Monthly",
+    "slug": "mobile-dev-monthly-flutter-kmp",
+    "author": {
+      "name": "Chloe Bennett",
+      "email": "chloe@mobiledev.io"
+    },
+    "subject_line": "📱 Kotlin Multiplatform vs Flutter: Which to choose in 2026?",
+    "preview_text": "Comparing developer velocity, native interop, UI rendering performance, and ecosystem maturity.",
+    "status": "sent",
+    "sent_at": "2026-07-05T15:30:00Z",
+    "subscriber_count": 16700,
+    "stats": {
+      "open_rate": 0.428,
+      "click_rate": 0.141
+    },
+    "tags": ["mobile", "flutter", "kotlin"]
+  },
+  {
+    "id": "13",
+    "title": "Product Growth Breakdown",
+    "slug": "product-growth-breakdown-onboarding",
+    "author": {
+      "name": "Kareem Abdul",
+      "email": "kareem@growthlab.co"
+    },
+    "subject_line": "📈 How Notion reduced user onboarding drop-off by 34%",
+    "preview_text": "A deep dive into progressive disclosure, contextual tooltips, and personalized workspace setup.",
+    "status": "sent",
+    "sent_at": "2026-07-02T10:30:00Z",
+    "subscriber_count": 38200,
+    "stats": {
+      "open_rate": 0.512,
+      "click_rate": 0.204
+    },
+    "tags": ["growth", "product-design", "ux"]
+  },
+  {
+    "id": "14",
+    "title": "Game Dev Insights",
+    "slug": "game-dev-insights-unreal-engine",
+    "author": {
+      "name": "Soren Lindqvist",
+      "email": "soren@gamedevnotes.com"
+    },
+    "subject_line": "🎮 Optimizing Nanite geometry for complex procedural worlds",
+    "preview_text": "Tips on draw call reductions, memory streaming budgets, and custom shader pipelines in Unreal Engine 5.",
+    "status": "draft",
+    "sent_at": null,
+    "subscriber_count": 9100,
+    "stats": {
+      "open_rate": 0.0,
+      "click_rate": 0.0
+    },
+    "tags": ["gamedev", "unreal-engine", "graphics"]
+  },
+  {
+    "id": "15",
+    "title": "The Remote Culture Signal",
+    "slug": "remote-culture-signal-async",
+    "author": {
+      "name": "Samantha Miller",
+      "email": "sam@remotework.co"
+    },
+    "subject_line": "🌍 Async-first communication protocols that actually prevent burnout",
+    "preview_text": "Replacing status meetings with structured update logs, clear documentation ownership, and quiet hours.",
+    "status": "sent",
+    "sent_at": "2026-07-09T14:00:00Z",
+    "subscriber_count": 22400,
+    "stats": {
+      "open_rate": 0.455,
+      "click_rate": 0.118
+    },
+    "tags": ["remote-work", "management", "culture"]
+  },
+  {
+    "id": "16",
+    "title": "API Design & Strategy",
+    "slug": "api-design-strategy-graphql-grpc",
+    "author": {
+      "name": "Dmitri Volkov",
+      "email": "dmitri@apiguide.dev"
+    },
+    "subject_line": "🔌 GraphQL vs gRPC vs REST: Architectural decision framework",
+    "preview_text": "Choosing the right API protocol based on network latency, client constraints, and schema governance.",
+    "status": "sent",
+    "sent_at": "2026-07-16T17:20:00Z",
+    "subscriber_count": 13800,
+    "stats": {
+      "open_rate": 0.493,
+      "click_rate": 0.176
+    },
+    "tags": ["backend", "api", "architecture"]
+  },
+  {
+    "id": "17",
+    "title": "Cloud Native Compass",
+    "slug": "cloud-native-compass-serverless",
+    "author": {
+      "name": "Nia Williams",
+      "email": "nia@cloudcompass.io"
+    },
+    "subject_line": "☁️ Is serverless still cost-effective at scale? A real-world audit",
+    "preview_text": "Analyzing the inflection point where containerized workloads beat pay-per-execution cloud functions.",
+    "status": "scheduled",
+    "sent_at": "2026-07-29T09:00:00Z",
+    "subscriber_count": 17500,
+    "stats": {
+      "open_rate": 0.0,
+      "click_rate": 0.0
+    },
+    "tags": ["cloud", "aws", "serverless"]
+  },
+  {
+    "id": "18",
+    "title": "Ethical AI Review",
+    "slug": "ethical-ai-review-bias-mitigation",
+    "author": {
+      "name": "Dr. Aris Thorne",
+      "email": "aris@aiethics.org"
+    },
+    "subject_line": "⚖️ Auditing training datasets for algorithmic bias and attribution",
+    "preview_text": "Practical frameworks for dataset auditing, consent tracking, and model explainability.",
+    "status": "sent",
+    "sent_at": "2026-07-03T11:45:00Z",
+    "subscriber_count": 10300,
+    "stats": {
+      "open_rate": 0.538,
+      "click_rate": 0.192
+    },
+    "tags": ["ai", "ethics", "data-science"]
+  },
+  {
+    "id": "19",
+    "title": "Rust Engineering Pulse",
+    "slug": "rust-engineering-pulse-memory-safety",
+    "author": {
+      "name": "Felix Baum",
+      "email": "felix@rustpulse.dev"
+    },
+    "subject_line": "🦀 Writing zero-cost abstractions with Rust async traits",
+    "preview_text": "Exploring compile-time monomorphization and memory layout optimizations in modern Rust codebases.",
+    "status": "draft",
+    "sent_at": null,
+    "subscriber_count": 12600,
+    "stats": {
+      "open_rate": 0.0,
+      "click_rate": 0.0
+    },
+    "tags": ["rust", "systems-programming", "performance"]
+  },
+  {
+    "id": "20",
+    "title": "E-Commerce Tech Trends",
+    "slug": "ecommerce-tech-trends-headless",
+    "author": {
+      "name": "Claire Dubois",
+      "email": "claire@ecomtech.co"
+    },
+    "subject_line": "🛍️ Headless commerce migration stories: What went wrong (and right)",
+    "preview_text": "Real lessons on API gateway bottlenecks, CDN caching challenges, and checkout integrations.",
+    "status": "sent",
+    "sent_at": "2026-07-07T13:10:00Z",
+    "subscriber_count": 15800,
+    "stats": {
+      "open_rate": 0.409,
+      "click_rate": 0.115
+    },
+    "tags": ["ecommerce", "headless", "webdev"]
+  }
+]

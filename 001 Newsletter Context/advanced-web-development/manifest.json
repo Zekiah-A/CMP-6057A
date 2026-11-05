@@ -1,0 +1,2342 @@
+[
+  {
+    "id": "_5793799_1",
+    "title": "Preparing for Assessment",
+    "path": "Module Resources/Successful Learning/Preparing for Assessment",
+    "kind": "resource/x-bb-folder",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793799_1",
+    "html": "",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793765_1",
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHMi2Xdfq4diXuU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793799_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-folder": {
+          "isBbPage": true,
+          "isFolder": true
+        }
+      },
+      "contentHandler": "resource/x-bb-folder",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/folder_on.svg",
+      "id": "_5793799_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": true,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1784887182571,
+      "parentId": "_5793781_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 4,
+      "renderType": "REG",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "Preparing for Assessment",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_5793807_1",
+    "title": "ultraDocumentBody",
+    "path": "Module Resources/Successful Learning/Preparing for Assessment/ultraDocumentBody",
+    "kind": "resource/x-bb-document",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793807_1",
+    "html": "<a data-bbid=\"bbml-editor-id_927f9059-d353-4f62-80c1-230d4ee0d212\" data-bbfile=\"{&quot;linkName&quot;:&quot;UNSAFE_HTML_20221128154139.html&quot;}\" data-bbtype=\"embedded-unsafe-html\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-5793807-dt-content-rid-43919427_1/xid-43919427_1\"></a>",
+    "files": [
+      {
+        "name": "UNSAFE_HTML_20221128154139.html",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/pid-5793807-dt-content-rid-43919427_1/xid-43919427_1"
+      }
+    ],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793765_1",
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <a data-bbid=\"bbml-editor-id_927f9059-d353-4f62-80c1-230d4ee0d212\" data-bbfile=\"{&quot;linkName&quot;:&quot;UNSAFE_HTML_20221128154139.html&quot;}\" data-bbtype=\"embedded-unsafe-html\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-5793807-dt-content-rid-43919427_1/xid-43919427_1\"></a>\n</div>",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHOtUIfsetOemuU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "<a data-bbid=\"bbml-editor-id_927f9059-d353-4f62-80c1-230d4ee0d212\" data-bbfile=\"{&quot;linkName&quot;:&quot;UNSAFE_HTML_20221128154139.html&quot;}\" data-bbtype=\"embedded-unsafe-html\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-5793807-dt-content-rid-43919427_1/xid-43919427_1\"></a>",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793807_1/embedded/"
+      },
+      "contentHandler": "resource/x-bb-document",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/document_on.svg",
+      "id": "_5793807_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1784887182576,
+      "parentId": "_5793799_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": false,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 0,
+      "renderType": "REG",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "ultraDocumentBody",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_5793767_1",
+    "title": "Assessment",
+    "path": "Assessment",
+    "kind": "resource/x-bb-lesson",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793767_1",
+    "html": "In this section, you will find all the key information for the formative and summative assessment for this module.",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": null,
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHOrbzD/ccD9qeU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793767_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-lesson": {
+          "hierarchyDisplay": "None",
+          "isBbPage": false,
+          "isFolder": true,
+          "isLesson": true,
+          "isSequential": false,
+          "shouldHideToc": false
+        }
+      },
+      "contentHandler": "resource/x-bb-lesson",
+      "courseId": "_158570_1",
+      "description": "In this section, you will find all the key information for the formative and summative assessment for this module.",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/lesson_on.svg",
+      "id": "_5793767_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1789460602953,
+      "parentId": "_5793760_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": false,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 5,
+      "renderType": "REG",
+      "state": "Started",
+      "stateCompletion": {
+        "completed": 0,
+        "started": 3,
+        "total": 4
+      },
+      "thumbnailAltText": "",
+      "title": "Assessment",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_5793788_1",
+    "title": "Assessment briefs",
+    "path": "Assessment/Assessment briefs",
+    "kind": "resource/x-bb-folder",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793788_1",
+    "html": "In this folder, you will find the assessment briefs for this module.",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793767_1",
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHOWDnI6lSY2VOU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793788_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-folder": {
+          "isBbPage": false,
+          "isFolder": true
+        }
+      },
+      "contentHandler": "resource/x-bb-folder",
+      "courseId": "_158570_1",
+      "description": "In this folder, you will find the assessment briefs for this module.",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/folder_on.svg",
+      "id": "_5793788_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1789460875558,
+      "parentId": "_5793767_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": false,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 1,
+      "renderType": "REG",
+      "state": "Started",
+      "stateCompletion": {
+        "completed": 0,
+        "started": 3,
+        "total": 3
+      },
+      "thumbnailAltText": "",
+      "title": "Assessment briefs",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_6068078_1",
+    "title": "001 - Web Application Project Brief",
+    "path": "Assessment/Assessment briefs/001 - Web Application Project Brief",
+    "kind": "resource/x-bb-folder",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6068078_1",
+    "html": "",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793767_1",
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlem5ox2Y3HwOCg08cUdZb5uU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_6068078_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-folder": {
+          "isBbPage": true,
+          "isFolder": true
+        }
+      },
+      "contentHandler": "resource/x-bb-folder",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/folder_on.svg",
+      "id": "_6068078_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": true,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1790150991277,
+      "parentId": "_5793788_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 0,
+      "renderType": "REG",
+      "state": "Started",
+      "thumbnailAltText": "",
+      "title": "001 - Web Application Project Brief",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_6068079_1",
+    "title": "ultraDocumentBody",
+    "path": "Assessment/Assessment briefs/001 - Web Application Project Brief/ultraDocumentBody",
+    "kind": "resource/x-bb-document",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6068079_1",
+    "html": "<div data-layout-row=\"d68ac76c-771e-4966-acee-f3a3f6de624c\"><div data-layout-column=\"d252cc2a-952f-4277-9917-4213f02f0d7d\" data-layout-column-width=\"12\"><a data-bbid=\"bbml-editor-id_7607388d-fe91-47c8-9854-a93dc0f3ea18\" data-bbfile=\"{&quot;linkName&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;displayName&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;isDecorative&quot;:false,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;viewerUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46164963_1/xid-46164963_1?locale=en_GB&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inlineOnly&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46164963_1/xid-46164963_1\"></a></div></div><div data-layout-row=\"a7d8f679-a6f3-44ee-b865-4d4cc16cd2cb\"><div data-layout-column=\"30ff4bc7-9880-47ba-b2cf-3ec94d9fc6d0\" data-layout-column-width=\"12\"><a data-bbid=\"bbml-editor-id_d1497bd9-0002-4e34-87ae-06067e657872\" data-bbfile=\"{&quot;linkName&quot;:&quot;latex.zip&quot;,&quot;displayName&quot;:&quot;CMP-7057A - Report latex template .zip&quot;,&quot;mimeType&quot;:&quot;application/zip&quot;,&quot;alternativeText&quot;:&quot;CMP-7057A - Report latex template .zip&quot;,&quot;isDecorative&quot;:false,&quot;render&quot;:&quot;attachment&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46410414_1/xid-46410414_1\"></a></div></div>",
+    "files": [
+      {
+        "name": "001-Advanced-Web-Development-v4.pdf",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46164963_1/xid-46164963_1"
+      },
+      {
+        "name": "CMP-7057A - Report latex template .zip",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46410414_1/xid-46410414_1"
+      }
+    ],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793767_1",
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <div data-layout-row=\"d68ac76c-771e-4966-acee-f3a3f6de624c\">\n  <div data-layout-column=\"d252cc2a-952f-4277-9917-4213f02f0d7d\" data-layout-column-width=\"12\">\n   <a data-bbid=\"bbml-editor-id_7607388d-fe91-47c8-9854-a93dc0f3ea18\" data-bbfile=\"{&quot;linkName&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;displayName&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;isDecorative&quot;:false,&quot;render&quot;:&quot;inlineOnly&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46164963_1/xid-46164963_1\"></a>\n  </div>\n </div>\n <div data-layout-row=\"a7d8f679-a6f3-44ee-b865-4d4cc16cd2cb\">\n  <div data-layout-column=\"30ff4bc7-9880-47ba-b2cf-3ec94d9fc6d0\" data-layout-column-width=\"12\">\n   <a data-bbid=\"bbml-editor-id_d1497bd9-0002-4e34-87ae-06067e657872\" data-bbfile=\"{&quot;linkName&quot;:&quot;latex.zip&quot;,&quot;displayName&quot;:&quot;CMP-7057A - Report latex template .zip&quot;,&quot;mimeType&quot;:&quot;application/zip&quot;,&quot;alternativeText&quot;:&quot;CMP-7057A - Report latex template .zip&quot;,&quot;isDecorative&quot;:false,&quot;render&quot;:&quot;attachment&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46410414_1/xid-46410414_1\"></a>\n  </div>\n </div>\n</div>",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlem5ox2Y3HwPab74n0i3hCOU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "<div data-layout-row=\"d68ac76c-771e-4966-acee-f3a3f6de624c\"><div data-layout-column=\"d252cc2a-952f-4277-9917-4213f02f0d7d\" data-layout-column-width=\"12\"><a data-bbid=\"bbml-editor-id_7607388d-fe91-47c8-9854-a93dc0f3ea18\" data-bbfile=\"{&quot;linkName&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;displayName&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;001-Advanced-Web-Development-v4.pdf&quot;,&quot;isDecorative&quot;:false,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;viewerUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46164963_1/xid-46164963_1?locale=en_GB&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inlineOnly&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46164963_1/xid-46164963_1\"></a></div></div><div data-layout-row=\"a7d8f679-a6f3-44ee-b865-4d4cc16cd2cb\"><div data-layout-column=\"30ff4bc7-9880-47ba-b2cf-3ec94d9fc6d0\" data-layout-column-width=\"12\"><a data-bbid=\"bbml-editor-id_d1497bd9-0002-4e34-87ae-06067e657872\" data-bbfile=\"{&quot;linkName&quot;:&quot;latex.zip&quot;,&quot;displayName&quot;:&quot;CMP-7057A - Report latex template .zip&quot;,&quot;mimeType&quot;:&quot;application/zip&quot;,&quot;alternativeText&quot;:&quot;CMP-7057A - Report latex template .zip&quot;,&quot;isDecorative&quot;:false,&quot;render&quot;:&quot;attachment&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068079-dt-content-rid-46410414_1/xid-46410414_1\"></a></div></div>",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_6068079_1/embedded/"
+      },
+      "contentHandler": "resource/x-bb-document",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/document_on.svg",
+      "id": "_6068079_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": false,
+      "lorContentId": null,
+      "modifiedDate": 1793377032460,
+      "parentId": "_6068078_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": false,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 0,
+      "renderType": "REG",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "ultraDocumentBody",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_6068086_1",
+    "title": "001 - Viva slots",
+    "path": "Assessment/Assessment briefs/001 - Viva slots",
+    "kind": "resource/x-bb-folder",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6068086_1",
+    "html": "",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793767_1",
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlem5ox2Y3HwNevCUdRpyrweU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_6068086_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-folder": {
+          "isBbPage": true,
+          "isFolder": true
+        }
+      },
+      "contentHandler": "resource/x-bb-folder",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/folder_on.svg",
+      "id": "_6068086_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": true,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1793702939899,
+      "parentId": "_5793788_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 1,
+      "renderType": "REG",
+      "state": "Started",
+      "thumbnailAltText": "",
+      "title": "001 - Viva slots",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_6068087_1",
+    "title": "ultraDocumentBody",
+    "path": "Assessment/Assessment briefs/001 - Viva slots/ultraDocumentBody",
+    "kind": "resource/x-bb-document",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6068087_1",
+    "html": "<div data-layout-row=\"5f7800da-1e27-4246-9456-3bbfefc237c9\"><div data-layout-column=\"a67e7fad-51cf-4fba-9e1b-65ebc888f6f4\" data-layout-column-width=\"12\"><a data-bbid=\"bbml-editor-id_8166e55b-8cd0-4da3-9362-978c0022cddd\" data-bbfile=\"{&quot;linkName&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;displayName&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1&quot;,&quot;viewerUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1?locale=en_GB&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inlineOnly&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1\"></a></div></div>",
+    "files": [
+      {
+        "name": "6057-7057 001 VIVA slots-v3.pdf",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1"
+      }
+    ],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793767_1",
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <div data-layout-row=\"5f7800da-1e27-4246-9456-3bbfefc237c9\">\n  <div data-layout-column=\"a67e7fad-51cf-4fba-9e1b-65ebc888f6f4\" data-layout-column-width=\"12\">\n   <a data-bbid=\"bbml-editor-id_8166e55b-8cd0-4da3-9362-978c0022cddd\" data-bbfile=\"{&quot;linkName&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;displayName&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1\"></a>\n  </div>\n </div>\n</div>",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlem5ox2Y3HwNbkim594to3uU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "<div data-layout-row=\"5f7800da-1e27-4246-9456-3bbfefc237c9\"><div data-layout-column=\"a67e7fad-51cf-4fba-9e1b-65ebc888f6f4\" data-layout-column-width=\"12\"><a data-bbid=\"bbml-editor-id_8166e55b-8cd0-4da3-9362-978c0022cddd\" data-bbfile=\"{&quot;linkName&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;displayName&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;6057-7057 001 VIVA slots-v3.pdf&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1&quot;,&quot;viewerUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1?locale=en_GB&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inlineOnly&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6068087-dt-content-rid-46474951_1/xid-46474951_1\"></a></div></div>",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_6068087_1/embedded/"
+      },
+      "contentHandler": "resource/x-bb-document",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/document_on.svg",
+      "id": "_6068087_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": false,
+      "lorContentId": null,
+      "modifiedDate": 1793804311107,
+      "parentId": "_6068086_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": false,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 0,
+      "renderType": "REG",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "ultraDocumentBody",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_6142677_1",
+    "title": "002 Implementing WebAI",
+    "path": "Assessment/Assessment briefs/002 Implementing WebAI",
+    "kind": "resource/x-bb-folder",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6142677_1",
+    "html": "",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793767_1",
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlem5ox2Y3HwO57Nf5PbpFu%2BU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_6142677_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-folder": {
+          "isBbPage": true,
+          "isFolder": true
+        }
+      },
+      "contentHandler": "resource/x-bb-folder",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/folder_on.svg",
+      "id": "_6142677_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": true,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1793697531395,
+      "parentId": "_5793788_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 2,
+      "renderType": "REG",
+      "state": "Started",
+      "thumbnailAltText": "",
+      "title": "002 Implementing WebAI",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_6142678_1",
+    "title": "ultraDocumentBody",
+    "path": "Assessment/Assessment briefs/002 Implementing WebAI/ultraDocumentBody",
+    "kind": "resource/x-bb-document",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6142678_1",
+    "html": "<div data-layout-row=\"6cbf4255-07df-4183-982d-9e9b1de69b25\"><div data-layout-column=\"3e442583-a0c4-4d93-a6c8-d8fd0de2e7e9\" data-layout-column-width=\"12\"><a data-bbid=\"bbml-editor-id_61749e77-7927-4dd2-84bb-c6ce9e846787\" data-bbfile=\"{&quot;linkName&quot;:&quot;UEA Assessment Brief Builder.pdf&quot;,&quot;displayName&quot;:&quot;Coursework 002 Brief.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;Coursework 002 Brief.pdf&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1&quot;,&quot;viewerUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1?locale=en_GB&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1\"></a></div></div>",
+    "files": [
+      {
+        "name": "Coursework 002 Brief.pdf",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1"
+      }
+    ],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793767_1",
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <div data-layout-row=\"6cbf4255-07df-4183-982d-9e9b1de69b25\">\n  <div data-layout-column=\"3e442583-a0c4-4d93-a6c8-d8fd0de2e7e9\" data-layout-column-width=\"12\">\n   <a data-bbid=\"bbml-editor-id_61749e77-7927-4dd2-84bb-c6ce9e846787\" data-bbfile=\"{&quot;linkName&quot;:&quot;UEA Assessment Brief Builder.pdf&quot;,&quot;displayName&quot;:&quot;Coursework 002 Brief.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;Coursework 002 Brief.pdf&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1\"></a>\n  </div>\n </div>\n</div>",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlem5ox2Y3HwOMAPkj5yiba%2BU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "<div data-layout-row=\"6cbf4255-07df-4183-982d-9e9b1de69b25\"><div data-layout-column=\"3e442583-a0c4-4d93-a6c8-d8fd0de2e7e9\" data-layout-column-width=\"12\"><a data-bbid=\"bbml-editor-id_61749e77-7927-4dd2-84bb-c6ce9e846787\" data-bbfile=\"{&quot;linkName&quot;:&quot;UEA Assessment Brief Builder.pdf&quot;,&quot;displayName&quot;:&quot;Coursework 002 Brief.pdf&quot;,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;alternativeText&quot;:&quot;Coursework 002 Brief.pdf&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1&quot;,&quot;viewerUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1?locale=en_GB&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\" href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6142678-dt-content-rid-46435759_1/xid-46435759_1\"></a></div></div>",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_6142678_1/embedded/"
+      },
+      "contentHandler": "resource/x-bb-document",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/document_on.svg",
+      "id": "_6142678_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": false,
+      "lorContentId": null,
+      "modifiedDate": 1793697531412,
+      "parentId": "_6142677_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": false,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 0,
+      "renderType": "REG",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "ultraDocumentBody",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_5793789_1",
+    "title": "Assessment Q+A",
+    "path": "Assessment/Assessment Q+A",
+    "kind": "resource/x-bb-courselink",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793789_1",
+    "html": "",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": "_5793767_1",
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHMsGYNKjNh34uU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793789_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-courselink": {
+          "courseContent": "_5793789_1",
+          "hasParticipationRequirements": false,
+          "linkSourceId": "_5793770_1",
+          "linkSourceTable": "CONTENT"
+        }
+      },
+      "contentDetailUrl": "/learn/api/v1/courses/_158570_1/contents/_5793770_1",
+      "contentHandler": "resource/x-bb-courselink",
+      "courseId": "_158570_1",
+      "description": "",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/discussion_on.svg",
+      "id": "_5793789_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": false,
+      "lorContentId": null,
+      "modifiedDate": 1790151134875,
+      "parentId": "_5793767_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 2,
+      "renderType": "LINK",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "Assessment Q+A",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_5793768_1",
+    "title": "Formative Assessment",
+    "path": "Formative Assessment",
+    "kind": "resource/x-bb-folder",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793768_1",
+    "html": "In this folder, you will find the submission points for your formative assessments when they become available to you.",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": null,
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHPeFRGKnl61kOU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793768_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-folder": {
+          "isBbPage": false,
+          "isFolder": true
+        }
+      },
+      "contentHandler": "resource/x-bb-folder",
+      "courseId": "_158570_1",
+      "description": "In this folder, you will find the submission points for your formative assessments when they become available to you.",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/folder_on.svg",
+      "id": "_5793768_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1789460602955,
+      "parentId": "_5793760_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": false,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 6,
+      "renderType": "REG",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "Formative Assessment",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_5793790_1",
+    "title": "Assessment Guidance - Coursework",
+    "path": "Formative Assessment/Assessment Guidance - Coursework",
+    "kind": "resource/x-bb-externallink",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793790_1",
+    "html": "Ensure you read this guidance before submitting your work.\n<p>Linked resource: https://learn.uea.ac.uk/bbcswebdav/xid-25796150_1</p>",
+    "files": [
+      {
+        "name": "Assessment Guidance - Coursework",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/xid-25796150_1"
+      }
+    ],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": null,
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHOQo4uq%2BdJFpOU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793790_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-externallink": {
+          "url": "https://learn.uea.ac.uk/bbcswebdav/xid-25796150_1"
+        }
+      },
+      "contentHandler": "resource/x-bb-externallink",
+      "courseId": "_158570_1",
+      "description": "Ensure you read this guidance before submitting your work.",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/link_on.svg",
+      "id": "_5793790_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": true,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1784887182574,
+      "parentId": "_5793768_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 0,
+      "renderType": "URL",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "Assessment Guidance - Coursework",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_5793769_1",
+    "title": "Summative Assessment",
+    "path": "Summative Assessment",
+    "kind": "resource/x-bb-folder",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793769_1",
+    "html": "In this folder, you will find the submission points for your summative assessments when they become available to you.",
+    "files": [],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": null,
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHNJKbH2twHPnuU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793769_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-folder": {
+          "isBbPage": false,
+          "isFolder": true
+        }
+      },
+      "contentHandler": "resource/x-bb-folder",
+      "courseId": "_158570_1",
+      "description": "In this folder, you will find the submission points for your summative assessments when they become available to you.",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/folder_on.svg",
+      "id": "_5793769_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": false,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1789460602957,
+      "parentId": "_5793760_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": false,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 7,
+      "renderType": "REG",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "Summative Assessment",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_6115947_1",
+    "title": "{001}{CMP-7057A-26-SEM1-A}",
+    "path": "Summative Assessment/{001}{CMP-7057A-26-SEM1-A}",
+    "kind": "resource/x-bb-asmt-test-link",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6115947_1",
+    "html": "<p><strong>Assessment name:</strong> Web Application Development Project</p><p><strong>Due date:</strong> 06-Nov-2026 15:00</p><p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6115947-dt-content-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>",
+    "files": [
+      {
+        "name": "submission guidance",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/pid-6115947-dt-content-rid-25796150_1/xid-25796150_1"
+      }
+    ],
+    "metadata": {
+      "adaptiveReleaseRules": {
+        "rules": [
+          {
+            "criteria": [
+              {
+                "id": "_119739_1",
+                "negate": false,
+                "start": "2026-10-30T00:00:00.000Z",
+                "type": "Date_Range"
+              }
+            ],
+            "id": "_103996_1",
+            "title": "Rule1",
+            "type": "User"
+          }
+        ]
+      },
+      "aiState": "No",
+      "ancestorLessonId": null,
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p><strong>Assessment name:</strong> Web Application Development Project</p>\n <p><strong>Due date:</strong> 06-Nov-2026 15:00</p>\n <p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6115947-dt-content-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>\n</div>",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlem5ox2Y3HwOI3iLi7ywhseU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "<p><strong>Assessment name:</strong> Web Application Development Project</p><p><strong>Due date:</strong> 06-Nov-2026 15:00</p><p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6115947-dt-content-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_6115947_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-asmt-test-link": {
+          "test": {
+            "assessment": {
+              "alignmentCount": 0,
+              "description": {
+                "displayText": "",
+                "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKm6P9XuQbAbIIr8lzgPYEKGqQ6w25vB996gSjfNDFjGS5",
+                "rawText": "",
+                "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/assessment/_1197887_1/"
+              },
+              "extraCreditPoints": 0.0,
+              "gradableItemId": "_405193_1",
+              "hasAnswerableQuestions": false,
+              "hasAutomatedQuestionFeedback": false,
+              "hasPartialAndNegativeCreditQuestions": false,
+              "hasPartialCreditQuestions": false,
+              "hasPresentationOnlyQuestions": false,
+              "id": "_1197887_1",
+              "instructions": {
+                "displayText": "<div class=\"vtbegenerated\">\n <p><strong>Assessment name:</strong> Web Application Development Project</p> \n <p><strong>Due date:</strong> 06-Nov-2026 15:00</p> \n <p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-1197887-dt-asiobject-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>\n</div>",
+                "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKm6P9XuQbAbIIr8lzgPYEKGqQ6w25vB996gSjfNDFjGS5",
+                "rawText": "<p><strong>Assessment name:</strong> Web Application Development Project</p>\n<p><strong>Due date:</strong> 06-Nov-2026 15:00</p>\n<p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-1197887-dt-asiobject-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>",
+                "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/assessment/_1197887_1/"
+              },
+              "lastModifiedDate": "2026-11-04T13:20:11.698Z",
+              "questionCount": 0,
+              "subtype": "Assignment",
+              "title": "{001}{CMP-7057A-26-SEM1-A}",
+              "totalPoints": 0.0,
+              "type": "Test"
+            },
+            "deployedAssessmentType": "test",
+            "deploymentSettings": {
+              "allowFileSubmission": true,
+              "allowStudentSubmission": true,
+              "allowTextSubmission": true,
+              "announcementTime": null,
+              "attemptCount": 3,
+              "deliveryType": "Assessment",
+              "feedbackSettings": {
+                "as": {
+                  "associatedDate": null,
+                  "options": [
+                    "USER_ANSWERS",
+                    "ALL_ANSWERS"
+                  ]
+                }
+              },
+              "id": "_94181_1",
+              "isBacktrackingProhibited": false,
+              "isCollectExternalSubmissions": false,
+              "isCompletionForced": false,
+              "isCorrectAnswerShown": false,
+              "isDescriptionShown": false,
+              "isDueDateEnforced": false,
+              "isFeedbackShown": false,
+              "isInstructionShown": false,
+              "isIpFilterEnabled": false,
+              "isKeepFirstPageFirstRequired": false,
+              "isLateAttemptCreationDisallowed": false,
+              "isPasswordRequired": false,
+              "isRandomizationOfAnswersRequired": "NEVER",
+              "isRandomizationOfPagesRequired": false,
+              "isRandomizationOfQuestionsRequired": false,
+              "isScoreShown": false,
+              "isSecureBrowserRequiredToReview": false,
+              "isSecureBrowserRequiredToTake": false,
+              "isStartedInExternalWindow": false,
+              "isUserAnswerShown": false,
+              "isWebcamRequired": false,
+              "lastModificationDate": null,
+              "restrictLocation": {
+                "selectedIpFilterProfile": null,
+                "selectedRestrictType": "NONE",
+                "userIpAddress": "139.222.243.121"
+              },
+              "timerCompletion": "CONTINUAL"
+            },
+            "exceptions": [],
+            "gradingColumn": {
+              "@id": "https://learn.uea.ac.uk/learn/api/v1/courses/_158570_1/gradebook/columns/_405193_1",
+              "aggregationModel": "LAST",
+              "anonymousGrading": true,
+              "assessmentSubtype": "Assignment",
+              "calculationType": "NON_CALCULATED",
+              "columnName": "{001}{CMP-7057A-26-SEM1-A}",
+              "contentId": "_6115947_1",
+              "courseId": "_158570_1",
+              "deleted": false,
+              "dueDate": "2026-11-06T15:00:01.000Z",
+              "effectiveColumnName": "{001}{CMP-7057A-26-SEM1-A}",
+              "enforceDueDate": false,
+              "gradeScoreDesignation": "-",
+              "gradebookCategory": {
+                "courseId": "_158570_1",
+                "description": null,
+                "id": "_1081512_1",
+                "isUserDefined": false,
+                "localizableTitle": {
+                  "bundle": "gradebook_type",
+                  "languageKey": "Assignment.name"
+                },
+                "title": "Assignment.name"
+              },
+              "gradebookCategoryId": "_1081512_1",
+              "gradesReleased": true,
+              "gradingSchemaId": "_508724_1",
+              "id": "_405193_1",
+              "isAttemptBased": true,
+              "isFormative": false,
+              "learningOutcome": {
+                "columnScale": [],
+                "entityScale": [],
+                "isSignature": false
+              },
+              "localizedColumnName": {
+                "bundle": "gradebook",
+                "languageKey": "{001}{CMP-7057A-26-SEM1-A}"
+              },
+              "ltiDomainId": null,
+              "multipleAttempts": 3,
+              "peerGrading": false,
+              "permanentAnonymous": false,
+              "position": 7,
+              "possible": 100.0,
+              "scorable": true,
+              "scoreProviderHandle": "resource/x-bb-assessment",
+              "userCreatedColumn": false,
+              "visible": true,
+              "visibleInBook": true
+            },
+            "permissions": {
+              "delete": false,
+              "deploy": false,
+              "modify": false,
+              "modifyDueDate": false,
+              "view": false
+            }
+          }
+        }
+      },
+      "contentHandler": "resource/x-bb-asmt-test-link",
+      "courseId": "_158570_1",
+      "description": "Web Application Development Project",
+      "dueDateExceptionType": "Normal",
+      "genericReadOnlyData": {
+        "dueDate": "2026-11-06T15:00:01.000Z",
+        "engagementDates": null,
+        "hasGradeColumn": true,
+        "restrictions": null
+      },
+      "iconUrl": "/images/ci/sets/set12/test_on.svg",
+      "id": "_6115947_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": true,
+      "launchInNewWindow": false,
+      "lorContentId": null,
+      "modifiedDate": 1793798413160,
+      "parentId": "_5793769_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": false,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 1,
+      "renderType": "LINK",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "{001}{CMP-7057A-26-SEM1-A}",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_6115945_1",
+    "title": "{001}{CMP-6057A-26-SEM1-A}",
+    "path": "Summative Assessment/{001}{CMP-6057A-26-SEM1-A}",
+    "kind": "resource/x-bb-asmt-test-link",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6115945_1",
+    "html": "<p><strong>Assessment name:</strong> Web Application Development Project</p><p><strong>Due date:</strong> 06-Nov-2026 15:00</p><p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6115945-dt-content-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>",
+    "files": [
+      {
+        "name": "submission guidance",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/pid-6115945-dt-content-rid-25796150_1/xid-25796150_1"
+      }
+    ],
+    "metadata": {
+      "adaptiveReleaseRules": {
+        "rules": [
+          {
+            "criteria": [
+              {
+                "id": "_119737_1",
+                "negate": false,
+                "start": "2026-10-30T00:00:00.000Z",
+                "type": "Date_Range"
+              }
+            ],
+            "id": "_103994_1",
+            "title": "Rule1",
+            "type": "User"
+          }
+        ]
+      },
+      "aiState": "No",
+      "ancestorLessonId": null,
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p><strong>Assessment name:</strong> Web Application Development Project</p>\n <p><strong>Due date:</strong> 06-Nov-2026 15:00</p>\n <p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6115945-dt-content-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>\n</div>",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlem5ox2Y3HwNfgq0EGegZN%2BU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "<p><strong>Assessment name:</strong> Web Application Development Project</p><p><strong>Due date:</strong> 06-Nov-2026 15:00</p><p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-6115945-dt-content-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_6115945_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-asmt-test-link": {
+          "test": {
+            "assessment": {
+              "alignmentCount": 0,
+              "description": {
+                "displayText": "",
+                "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKm6P9XuQbAbIIr8lzgPYEKGqQ6w25vB996riiCX2HJgw9",
+                "rawText": "",
+                "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/assessment/_1197883_1/"
+              },
+              "extraCreditPoints": 0.0,
+              "gradableItemId": "_405191_1",
+              "hasAnswerableQuestions": false,
+              "hasAutomatedQuestionFeedback": false,
+              "hasPartialAndNegativeCreditQuestions": false,
+              "hasPartialCreditQuestions": false,
+              "hasPresentationOnlyQuestions": false,
+              "id": "_1197883_1",
+              "instructions": {
+                "displayText": "<div class=\"vtbegenerated\">\n <p><strong>Assessment name:</strong> Web Application Development Project</p> \n <p><strong>Due date:</strong> 06-Nov-2026 15:00</p> \n <p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-1197883-dt-asiobject-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>\n</div>",
+                "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKm6P9XuQbAbIIr8lzgPYEKGqQ6w25vB996riiCX2HJgw9",
+                "rawText": "<p><strong>Assessment name:</strong> Web Application Development Project</p>\n<p><strong>Due date:</strong> 06-Nov-2026 15:00</p>\n<p>Ensure you read the <a href=\"https://learn.uea.ac.uk/bbcswebdav/pid-1197883-dt-asiobject-rid-25796150_1/xid-25796150_1\">submission guidance</a> before making your attempt.</p>",
+                "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/assessment/_1197883_1/"
+              },
+              "lastModifiedDate": "2026-11-04T13:20:08.707Z",
+              "questionCount": 0,
+              "subtype": "Assignment",
+              "title": "{001}{CMP-6057A-26-SEM1-A}",
+              "totalPoints": 0.0,
+              "type": "Test"
+            },
+            "deployedAssessmentType": "test",
+            "deploymentSettings": {
+              "allowFileSubmission": true,
+              "allowStudentSubmission": true,
+              "allowTextSubmission": true,
+              "announcementTime": null,
+              "attemptCount": 3,
+              "deliveryType": "Assessment",
+              "feedbackSettings": {
+                "as": {
+                  "associatedDate": null,
+                  "options": [
+                    "USER_ANSWERS",
+                    "ALL_ANSWERS"
+                  ]
+                }
+              },
+              "id": "_94179_1",
+              "isBacktrackingProhibited": false,
+              "isCollectExternalSubmissions": false,
+              "isCompletionForced": false,
+              "isCorrectAnswerShown": false,
+              "isDescriptionShown": false,
+              "isDueDateEnforced": false,
+              "isFeedbackShown": false,
+              "isInstructionShown": false,
+              "isIpFilterEnabled": false,
+              "isKeepFirstPageFirstRequired": false,
+              "isLateAttemptCreationDisallowed": false,
+              "isPasswordRequired": false,
+              "isRandomizationOfAnswersRequired": "NEVER",
+              "isRandomizationOfPagesRequired": false,
+              "isRandomizationOfQuestionsRequired": false,
+              "isScoreShown": false,
+              "isSecureBrowserRequiredToReview": false,
+              "isSecureBrowserRequiredToTake": false,
+              "isStartedInExternalWindow": false,
+              "isUserAnswerShown": false,
+              "isWebcamRequired": false,
+              "lastModificationDate": null,
+              "restrictLocation": {
+                "selectedIpFilterProfile": null,
+                "selectedRestrictType": "NONE",
+                "userIpAddress": "139.222.243.121"
+              },
+              "timerCompletion": "CONTINUAL"
+            },
+            "exceptions": [],
+            "gradingColumn": {
+              "@id": "https://learn.uea.ac.uk/learn/api/v1/courses/_158570_1/gradebook/columns/_405191_1",
+              "aggregationModel": "LAST",
+              "anonymousGrading": true,
+              "assessmentSubtype": "Assignment",
+              "calculationType": "NON_CALCULATED",
+              "columnName": "{001}{CMP-6057A-26-SEM1-A}",
+              "contentId": "_6115945_1",
+              "courseId": "_158570_1",
+              "deleted": false,
+              "dueDate": "2026-11-06T15:00:01.000Z",
+              "effectiveColumnName": "{001}{CMP-6057A-26-SEM1-A}",
+              "enforceDueDate": false,
+              "gradeScoreDesignation": "-",
+              "gradebookCategory": {
+                "courseId": "_158570_1",
+                "description": null,
+                "id": "_1081512_1",
+                "isUserDefined": false,
+                "localizableTitle": {
+                  "bundle": "gradebook_type",
+                  "languageKey": "Assignment.name"
+                },
+                "title": "Assignment.name"
+              },
+              "gradebookCategoryId": "_1081512_1",
+              "gradesReleased": true,
+              "gradingSchemaId": "_508724_1",
+              "hasAnonymousSubmissions": true,
+              "id": "_405191_1",
+              "isAttemptBased": true,
+              "isFormative": false,
+              "learningOutcome": {
+                "columnScale": [],
+                "entityScale": [],
+                "isSignature": false
+              },
+              "localizedColumnName": {
+                "bundle": "gradebook",
+                "languageKey": "{001}{CMP-6057A-26-SEM1-A}"
+              },
+              "ltiDomainId": null,
+              "multipleAttempts": 3,
+              "peerGrading": false,
+              "permanentAnonymous": false,
+              "position": 5,
+              "possible": 100.0,
+              "scorable": true,
+              "scoreProviderHandle": "resource/x-bb-assessment",
+              "userCreatedColumn": false,
+              "visible": true,
+              "visibleInBook": true
+            },
+            "permissions": {
+              "delete": false,
+              "deploy": false,
+              "modify": false,
+              "modifyDueDate": false,
+              "view": false
+            }
+          }
+        }
+      },
+      "contentHandler": "resource/x-bb-asmt-test-link",
+      "courseId": "_158570_1",
+      "description": "Web Application Development Project",
+      "dueDateExceptionType": "Normal",
+      "genericReadOnlyData": {
+        "dueDate": "2026-11-06T15:00:01.000Z",
+        "engagementDates": null,
+        "hasGradeColumn": true,
+        "restrictions": null
+      },
+      "iconUrl": "/images/ci/sets/set12/test_on.svg",
+      "id": "_6115945_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": true,
+      "launchInNewWindow": false,
+      "lorContentId": null,
+      "modifiedDate": 1793798413159,
+      "parentId": "_5793769_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": false,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 3,
+      "renderType": "LINK",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "{001}{CMP-6057A-26-SEM1-A}",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_5793791_1",
+    "title": "Assessment Guidance - Coursework",
+    "path": "Summative Assessment/Assessment Guidance - Coursework",
+    "kind": "resource/x-bb-externallink",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5793791_1",
+    "html": "Ensure you read this  guidance before submitting your work.\n<p>Linked resource: https://learn.uea.ac.uk/bbcswebdav/xid-25796150_1</p>",
+    "files": [
+      {
+        "name": "Assessment Guidance - Coursework",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/xid-25796150_1"
+      }
+    ],
+    "metadata": {
+      "aiState": "No",
+      "ancestorLessonId": null,
+      "body": {
+        "displayText": "",
+        "fileLocation": "BB%3FBB_al4imWoksV/vGopZxXqk8pVRdLBNxO9Hx0WJZyUvM6G7Pne1vl0iWVkcPQmwN6q32w5WWsRIQge9MuqP74nKmzgEQqefbSWlDeA21GNdZHMXKCGubO/Fu%2BU93Vl38s7I5DMMPB6kaqA%3D",
+        "rawText": "",
+        "webLocation": "https://learn.uea.ac.uk/courses/1/CMP-6057A-26-SEM1-A/content/_5793791_1/embedded/"
+      },
+      "contentDetail": {
+        "resource/x-bb-externallink": {
+          "url": "https://learn.uea.ac.uk/bbcswebdav/xid-25796150_1"
+        }
+      },
+      "contentHandler": "resource/x-bb-externallink",
+      "courseId": "_158570_1",
+      "description": "Ensure you read this  guidance before submitting your work.",
+      "dueDateExceptionType": "Normal",
+      "iconUrl": "/images/ci/sets/set12/link_on.svg",
+      "id": "_5793791_1",
+      "inSequence": false,
+      "isGroupContent": false,
+      "isPrimaryLearningObject": false,
+      "isReviewable": true,
+      "launchInNewWindow": true,
+      "lorContentId": null,
+      "modifiedDate": 1791375734714,
+      "parentId": "_5793769_1",
+      "permissions": {
+        "adaptiveRelease": {
+          "create": false,
+          "criteria": {
+            "acl": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "dates": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            },
+            "performance": {
+              "create": false,
+              "delete": false,
+              "edit": false
+            }
+          },
+          "delete": false,
+          "edit": false,
+          "view": false
+        },
+        "canHaveReviewState": true,
+        "canUpdateReviewState": true,
+        "canViewReviewState": true,
+        "contentHandlerPermissionMap": {
+          "createDiscussion": false,
+          "dropTarget": true
+        },
+        "contentOptions": true,
+        "copy": false,
+        "createLearningStandardsAlignment": false,
+        "dashboardView": false,
+        "delete": false,
+        "edit": false,
+        "isAllowLOROperations": false,
+        "isAppendOnly": false,
+        "modifyAvailability": false,
+        "move": false,
+        "viewDesigner": false
+      },
+      "position": 4,
+      "renderType": "URL",
+      "state": "None",
+      "thumbnailAltText": "",
+      "title": "Assessment Guidance - Coursework",
+      "titleColor": "#000000",
+      "visibility": "VISIBLE"
+    }
+  },
+  {
+    "id": "_534771_1",
+    "title": "Viva Schedule Published on Blackboard – Please Check Your Slot",
+    "path": "Announcements/Viva Schedule Published on Blackboard – Please Check Your Slot",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_534771_1",
+    "html": "<p>Published: 2026-11-03T10:48:36.229Z</p>\n<p>Hi everyone,</p><br><p>The schedule for next week’s viva sessions has now been finalised and published on Blackboard -&gt; Assessment section.&nbsp;</p><br><p>Please take note of the following important points:</p><br><ol><li>Schedule adjustments: Some timings have been slightly adjusted to accommodate students entitled to reasonable adjustments and additional time. Please double-check your allocated date and time on Blackboard so you have the correct slot.</li><li>Deadline for queries: If you spot any scheduling clashes or issues, you must contact me by this Friday at the latest so we can resolve them before next week.</li><li>Preparation and punctuality: Please make sure you are set up and ready to go well ahead of your dedicated slot. Being organised, prepared, and ready on time is also part of the professional assessment criteria.</li></ol><br><p>Best of luck with your final preparations.</p><br><br><p>Jeannette and the Teaching Team </p><br><br>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hi everyone,</p>\n <br>\n <p>The schedule for next week’s viva sessions has now been finalised and published on Blackboard -&gt; Assessment section.&nbsp;</p>\n <br>\n <p>Please take note of the following important points:</p>\n <br>\n <ol>\n  <li>Schedule adjustments: Some timings have been slightly adjusted to accommodate students entitled to reasonable adjustments and additional time. Please double-check your allocated date and time on Blackboard so you have the correct slot.</li>\n  <li>Deadline for queries: If you spot any scheduling clashes or issues, you must contact me by this Friday at the latest so we can resolve them before next week.</li>\n  <li>Preparation and punctuality: Please make sure you are set up and ready to go well ahead of your dedicated slot. Being organised, prepared, and ready on time is also part of the professional assessment criteria.</li>\n </ol>\n <br>\n <p>Best of luck with your final preparations.</p>\n <br>\n <br>\n <p>Jeannette and the Teaching Team </p>\n <br>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpvI0V29Q75E0EnpOk/OSsSQ%3D%3D",
+        "rawText": "<p>Hi everyone,</p><br><p>The schedule for next week’s viva sessions has now been finalised and published on Blackboard -&gt; Assessment section.&nbsp;</p><br><p>Please take note of the following important points:</p><br><ol><li>Schedule adjustments: Some timings have been slightly adjusted to accommodate students entitled to reasonable adjustments and additional time. Please double-check your allocated date and time on Blackboard so you have the correct slot.</li><li>Deadline for queries: If you spot any scheduling clashes or issues, you must contact me by this Friday at the latest so we can resolve them before next week.</li><li>Preparation and punctuality: Please make sure you are set up and ready to go well ahead of your dedicated slot. Being organised, prepared, and ready on time is also part of the professional assessment criteria.</li></ol><br><p>Best of luck with your final preparations.</p><br><br><p>Jeannette and the Teaching Team </p><br><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_534771_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-11-03T10:48:36.221Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_534771_1",
+      "isDraft": false,
+      "modifiedDate": "2026-11-03T10:48:36.230Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 1,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-03T14:57:31.363Z",
+        "isRead": true,
+        "updateDate": "2026-11-03T14:57:31.363Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-11-03T10:48:36.229Z",
+      "title": "Viva Schedule Published on Blackboard – Please Check Your Slot",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_534600_1",
+    "title": "Mid Module Feedback",
+    "path": "Announcements/Mid Module Feedback",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_534600_1",
+    "html": "<p>Published: 2026-11-02T11:25:52.284Z</p>\n<p>Hi everyone,</p><br><p>Thank you for submitting your feedback for the Advanced Web Development module. We appreciate you taking the time to share your thoughts. Based on the specific comments raised, here is how we are addressing them:</p><br><ol><li>Fast Pacing and Steep Learning Curve: A couple of you noted that the module moves very fast and feels compressed. As highlighted at the start of term, this is the nature of full-stack development: industry-standard frameworks require an intensive pace, backed by substantial self-learning and independent practice outside of class. While demanding, this exposure is designed to give you a solid foundation in the modern workflows and problem-solving skills expected in industry.</li><li>Lecture Slides and Dense Code: You mentioned that the lectures contain a huge number of slides with dense code, making it difficult to keep up or digest the material. The code shown on the slides was meant to provide you with solutions. Moving forward: We will adjust the lecture structure to focus on the theory and the \"why\" behind the implementations first, followed by the code. We will slow the pace down and cut down the amount of code directly on the slides, providing the full code as reference files instead.</li><li>Lectures Running into Lab Time: A comment noted that lectures occasionally run over into lab time. We will stick strictly to the scheduled finish time for the lecture to ensure you have the full lab duration.</li><li>Lab Sheets (\"Do X, Now Do Y\") and Working Through Gaps: Feedback mentioned that the lab sheets focus on step-by-step actions without in-depth explanations of every line, and that encountering gaps can leave you stuck. This structure is intentional. In web development, tasks are rarely plain sailing, and learning how to work through ambiguities is an essential practical skill. As advised at the start of the module, you are encouraged to use AI tools when you get stuck to explain concepts, troubleshoot errors, and bridge gaps as part of your active learning process. The teaching team is also on hand during labs to assist when you hit a wall.</li><li>Readiness for Coursework Projects: Some of you shared that you do not feel ready to start your projects and worry about relying solely on lab code. Bridging lab examples into independent project work requires actively exploring and understanding how the code functions. When you encounter ambiguity or are unsure how to adapt a pattern, be proactive: consult AI tools to break down unfamiliar code, test modifications, and make full use of the ATs available during lab hours to ask questions. Engaging with these resources directly is essential for meeting the learning outcomes and gaining the confidence needed for your coursework.</li></ol><br><p>Thank you again for your time and providing us your feedback, we really appreciate it.</p><br><p>Jeannette and the Teaching Team </p><br><br><br>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hi everyone,</p>\n <br>\n <p>Thank you for submitting your feedback for the Advanced Web Development module. We appreciate you taking the time to share your thoughts. Based on the specific comments raised, here is how we are addressing them:</p>\n <br>\n <ol>\n  <li>Fast Pacing and Steep Learning Curve: A couple of you noted that the module moves very fast and feels compressed. As highlighted at the start of term, this is the nature of full-stack development: industry-standard frameworks require an intensive pace, backed by substantial self-learning and independent practice outside of class. While demanding, this exposure is designed to give you a solid foundation in the modern workflows and problem-solving skills expected in industry.</li>\n  <li>Lecture Slides and Dense Code: You mentioned that the lectures contain a huge number of slides with dense code, making it difficult to keep up or digest the material. The code shown on the slides was meant to provide you with solutions. Moving forward: We will adjust the lecture structure to focus on the theory and the \"why\" behind the implementations first, followed by the code. We will slow the pace down and cut down the amount of code directly on the slides, providing the full code as reference files instead.</li>\n  <li>Lectures Running into Lab Time: A comment noted that lectures occasionally run over into lab time. We will stick strictly to the scheduled finish time for the lecture to ensure you have the full lab duration.</li>\n  <li>Lab Sheets (\"Do X, Now Do Y\") and Working Through Gaps: Feedback mentioned that the lab sheets focus on step-by-step actions without in-depth explanations of every line, and that encountering gaps can leave you stuck. This structure is intentional. In web development, tasks are rarely plain sailing, and learning how to work through ambiguities is an essential practical skill. As advised at the start of the module, you are encouraged to use AI tools when you get stuck to explain concepts, troubleshoot errors, and bridge gaps as part of your active learning process. The teaching team is also on hand during labs to assist when you hit a wall.</li>\n  <li>Readiness for Coursework Projects: Some of you shared that you do not feel ready to start your projects and worry about relying solely on lab code. Bridging lab examples into independent project work requires actively exploring and understanding how the code functions. When you encounter ambiguity or are unsure how to adapt a pattern, be proactive: consult AI tools to break down unfamiliar code, test modifications, and make full use of the ATs available during lab hours to ask questions. Engaging with these resources directly is essential for meeting the learning outcomes and gaining the confidence needed for your coursework.</li>\n </ol>\n <br>\n <p>Thank you again for your time and providing us your feedback, we really appreciate it.</p>\n <br>\n <p>Jeannette and the Teaching Team </p>\n <br>\n <br>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpvI0V29Q75E24pXt3Ym4hUg%3D%3D",
+        "rawText": "<p>Hi everyone,</p><br><p>Thank you for submitting your feedback for the Advanced Web Development module. We appreciate you taking the time to share your thoughts. Based on the specific comments raised, here is how we are addressing them:</p><br><ol><li>Fast Pacing and Steep Learning Curve: A couple of you noted that the module moves very fast and feels compressed. As highlighted at the start of term, this is the nature of full-stack development: industry-standard frameworks require an intensive pace, backed by substantial self-learning and independent practice outside of class. While demanding, this exposure is designed to give you a solid foundation in the modern workflows and problem-solving skills expected in industry.</li><li>Lecture Slides and Dense Code: You mentioned that the lectures contain a huge number of slides with dense code, making it difficult to keep up or digest the material. The code shown on the slides was meant to provide you with solutions. Moving forward: We will adjust the lecture structure to focus on the theory and the \"why\" behind the implementations first, followed by the code. We will slow the pace down and cut down the amount of code directly on the slides, providing the full code as reference files instead.</li><li>Lectures Running into Lab Time: A comment noted that lectures occasionally run over into lab time. We will stick strictly to the scheduled finish time for the lecture to ensure you have the full lab duration.</li><li>Lab Sheets (\"Do X, Now Do Y\") and Working Through Gaps: Feedback mentioned that the lab sheets focus on step-by-step actions without in-depth explanations of every line, and that encountering gaps can leave you stuck. This structure is intentional. In web development, tasks are rarely plain sailing, and learning how to work through ambiguities is an essential practical skill. As advised at the start of the module, you are encouraged to use AI tools when you get stuck to explain concepts, troubleshoot errors, and bridge gaps as part of your active learning process. The teaching team is also on hand during labs to assist when you hit a wall.</li><li>Readiness for Coursework Projects: Some of you shared that you do not feel ready to start your projects and worry about relying solely on lab code. Bridging lab examples into independent project work requires actively exploring and understanding how the code functions. When you encounter ambiguity or are unsure how to adapt a pattern, be proactive: consult AI tools to break down unfamiliar code, test modifications, and make full use of the ATs available during lab hours to ask questions. Engaging with these resources directly is essential for meeting the learning outcomes and gaining the confidence needed for your coursework.</li></ol><br><p>Thank you again for your time and providing us your feedback, we really appreciate it.</p><br><p>Jeannette and the Teaching Team </p><br><br><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_534600_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-11-02T11:25:52.274Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_534600_1",
+      "isDraft": false,
+      "modifiedDate": "2026-11-02T11:25:52.286Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 2,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:30:16.097Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:30:16.097Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-11-02T11:25:52.284Z",
+      "title": "Mid Module Feedback",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_534413_1",
+    "title": "Week 7: Introduction to WebAI with TensorFlow.js",
+    "path": "Announcements/Week 7: Introduction to WebAI with TensorFlow.js",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_534413_1",
+    "html": "<p>Published: 2026-10-30T09:00:06.966Z</p>\n<p>Hello everyone,</p><br><p>I hope your work on Coursework 001 is going well.</p><br><p>From Week 7, we will begin the second half of the module, focusing on WebAI. The ability to integrate AI models and features into web applications is becoming an increasingly valuable skill for modern web developers.</p><br><p>Our first WebAI lecture will take place on Tuesday, 3 November, from 14:00 to 16:00 in the Data Science and AI Lab (Sci 0.59).</p><br><p>This session will introduce the foundations of WebAI using Google’s TensorFlow.js. It will prepare you for the following weeks, when we will explore pretrained models, WebAI applications and bounded AI-agent features.</p><br><p>I appreciate that many of you will be busy completing Coursework 001. However, I strongly recommend attending this lecture because it establishes the key concepts needed for the rest of the module and Coursework 002.</p><br><p>The lecture will be followed by a practical lab from 16:00 to 18:00 in the same room. Weekly lecture slides, lab exercises and assessment information will be posted on Blackboard. Please review the materials before each lecture and lab where possible.</p><br><p>If you have any questions about the second half of the module, please contact me at Cheng.C.Wang@uea.ac.uk.</p><br><p>We look forward to seeing you next week.</p><br><p>Cheng and the Teaching Team</p>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hello everyone,</p>\n <br>\n <p>I hope your work on Coursework 001 is going well.</p>\n <br>\n <p>From Week 7, we will begin the second half of the module, focusing on WebAI. The ability to integrate AI models and features into web applications is becoming an increasingly valuable skill for modern web developers.</p>\n <br>\n <p>Our first WebAI lecture will take place on Tuesday, 3 November, from 14:00 to 16:00 in the Data Science and AI Lab (Sci 0.59).</p>\n <br>\n <p>This session will introduce the foundations of WebAI using Google’s TensorFlow.js. It will prepare you for the following weeks, when we will explore pretrained models, WebAI applications and bounded AI-agent features.</p>\n <br>\n <p>I appreciate that many of you will be busy completing Coursework 001. However, I strongly recommend attending this lecture because it establishes the key concepts needed for the rest of the module and Coursework 002.</p>\n <br>\n <p>The lecture will be followed by a practical lab from 16:00 to 18:00 in the same room. Weekly lecture slides, lab exercises and assessment information will be posted on Blackboard. Please review the materials before each lecture and lab where possible.</p>\n <br>\n <p>If you have any questions about the second half of the module, please contact me at Cheng.C.Wang@uea.ac.uk.</p>\n <br>\n <p>We look forward to seeing you next week.</p>\n <br>\n <p>Cheng and the Teaching Team</p>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpvI0V29Q75E2j2WqeLt10SQ%3D%3D",
+        "rawText": "<p>Hello everyone,</p><br><p>I hope your work on Coursework 001 is going well.</p><br><p>From Week 7, we will begin the second half of the module, focusing on WebAI. The ability to integrate AI models and features into web applications is becoming an increasingly valuable skill for modern web developers.</p><br><p>Our first WebAI lecture will take place on Tuesday, 3 November, from 14:00 to 16:00 in the Data Science and AI Lab (Sci 0.59).</p><br><p>This session will introduce the foundations of WebAI using Google’s TensorFlow.js. It will prepare you for the following weeks, when we will explore pretrained models, WebAI applications and bounded AI-agent features.</p><br><p>I appreciate that many of you will be busy completing Coursework 001. However, I strongly recommend attending this lecture because it establishes the key concepts needed for the rest of the module and Coursework 002.</p><br><p>The lecture will be followed by a practical lab from 16:00 to 18:00 in the same room. Weekly lecture slides, lab exercises and assessment information will be posted on Blackboard. Please review the materials before each lecture and lab where possible.</p><br><p>If you have any questions about the second half of the module, please contact me at Cheng.C.Wang@uea.ac.uk.</p><br><p>We look forward to seeing you next week.</p><br><p>Cheng and the Teaching Team</p>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_534413_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-10-29T22:24:38.113Z",
+      "creatorUserId": "_382000_1",
+      "endDateRestriction": null,
+      "id": "_534413_1",
+      "isDraft": false,
+      "modifiedDate": "2026-10-29T22:24:38.125Z",
+      "permanent": false,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 3,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:30:17.440Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:30:17.440Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-10-30T09:00:06.966Z",
+      "title": "Week 7: Introduction to WebAI with TensorFlow.js",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_533993_1",
+    "title": "Week 6",
+    "path": "Announcements/Week 6",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_533993_1",
+    "html": "<p>Published: 2026-10-26T09:31:18.676Z</p>\n<p>Hi everyone,</p><br><p>A quick reminder that this week is Independent Learning Week.</p><br><p>There is no scheduled lecture taking place this week.</p><br><p>No new learning content will be released, giving you time to catch up on previous topics, complete the lab exercises, and work on your coursework.</p><br><p><strong>Drop-in Lab: </strong>Our lab session will run as usual from 4:00 PM to 6:00 PM. Please feel free to stop by if you have questions, need assistance with your coursework. </p><br><p><strong>Looking Ahead:</strong></p><br><p>Next week, we will kick off the second topic of the module: WebAI.</p><br><p>Take advantage of the break from scheduled classes to consolidate your learning and recharge. If you need any support, we will see you at the lab!</p><br><br><p>Jeannette and the Teaching Team </p><br><br><br>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hi everyone,</p>\n <br>\n <p>A quick reminder that this week is Independent Learning Week.</p>\n <br>\n <p>There is no scheduled lecture taking place this week.</p>\n <br>\n <p>No new learning content will be released, giving you time to catch up on previous topics, complete the lab exercises, and work on your coursework.</p>\n <br>\n <p><strong>Drop-in Lab: </strong>Our lab session will run as usual from 4:00 PM to 6:00 PM. Please feel free to stop by if you have questions, need assistance with your coursework. </p>\n <br>\n <p><strong>Looking Ahead:</strong></p>\n <br>\n <p>Next week, we will kick off the second topic of the module: WebAI.</p>\n <br>\n <p>Take advantage of the break from scheduled classes to consolidate your learning and recharge. If you need any support, we will see you at the lab!</p>\n <br>\n <br>\n <p>Jeannette and the Teaching Team </p>\n <br>\n <br>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpaobfEOq5QkPoz0iRCh4y6g%3D%3D",
+        "rawText": "<p>Hi everyone,</p><br><p>A quick reminder that this week is Independent Learning Week.</p><br><p>There is no scheduled lecture taking place this week.</p><br><p>No new learning content will be released, giving you time to catch up on previous topics, complete the lab exercises, and work on your coursework.</p><br><p><strong>Drop-in Lab: </strong>Our lab session will run as usual from 4:00 PM to 6:00 PM. Please feel free to stop by if you have questions, need assistance with your coursework. </p><br><p><strong>Looking Ahead:</strong></p><br><p>Next week, we will kick off the second topic of the module: WebAI.</p><br><p>Take advantage of the break from scheduled classes to consolidate your learning and recharge. If you need any support, we will see you at the lab!</p><br><br><p>Jeannette and the Teaching Team </p><br><br><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533993_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-10-26T09:31:18.665Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_533993_1",
+      "isDraft": false,
+      "modifiedDate": "2026-10-26T09:31:18.677Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 4,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-01T17:45:49.693Z",
+        "isRead": true,
+        "updateDate": "2026-11-01T17:45:49.693Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-10-26T09:31:18.676Z",
+      "title": "Week 6",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_533381_1",
+    "title": "Week 5",
+    "path": "Announcements/Week 5",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_533381_1",
+    "html": "<p>Published: 2026-10-20T16:49:17.836Z</p>\n<p>Hi everyone,</p><br><p>It has been great seeing you all in our classes today! We have now officially completed part one of the module.</p><br><p>You now possess all the necessary theoretical information, and the practical skills (provided you have been completing the lab exercises) to successfully tackle your assignment. Please remember to carefully review the assignment brief for the exact deliverables and the submission due date.</p><br><p>I am currently finalising the schedule for the viva slots and will post a separate announcement as soon as they are ready.&nbsp;</p><br><p>Additionally, if you have not already done so, please take a moment to provide your feedback on the module so far by scanning the QR code.</p><br><br><p><a href=\"https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533381_1/QRCode%20for%20Semester%201_%20Mid%20Module%20Feedback_CMP-6057A_ADVANCED%20WEB%20DEVELOPMENT.png\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;displayName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;fileName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;fileSize&quot;:1924295,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533381_1/QRCode%20for%20Semester%201_%20Mid%20Module%20Feedback_CMP-6057A_ADVANCED%20WEB%20DEVELOPMENT.png&quot;,&quot;linkName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;}\">QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png</a></p><br><br><p>Happy coding!</p><br><br><p>Jeannette and the Teaching Team </p><br><br>",
+    "files": [
+      {
+        "name": "QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png",
+        "url": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533381_1/QRCode%20for%20Semester%201_%20Mid%20Module%20Feedback_CMP-6057A_ADVANCED%20WEB%20DEVELOPMENT.png"
+      }
+    ],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hi everyone,</p>\n <br>\n <p>It has been great seeing you all in our classes today! We have now officially completed part one of the module.</p>\n <br>\n <p>You now possess all the necessary theoretical information, and the practical skills (provided you have been completing the lab exercises) to successfully tackle your assignment. Please remember to carefully review the assignment brief for the exact deliverables and the submission due date.</p>\n <br>\n <p>I am currently finalising the schedule for the viva slots and will post a separate announcement as soon as they are ready.&nbsp;</p>\n <br>\n <p>Additionally, if you have not already done so, please take a moment to provide your feedback on the module so far by scanning the QR code.</p>\n <br>\n <br>\n <p><a href=\"https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533381_1/QRCode%20for%20Semester%201_%20Mid%20Module%20Feedback_CMP-6057A_ADVANCED%20WEB%20DEVELOPMENT.png\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;displayName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;fileName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;fileSize&quot;:1924295,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533381_1/QRCode%20for%20Semester%201_%20Mid%20Module%20Feedback_CMP-6057A_ADVANCED%20WEB%20DEVELOPMENT.png&quot;,&quot;linkName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;}\">QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png</a></p>\n <br>\n <br>\n <p>Happy coding!</p>\n <br>\n <br>\n <p>Jeannette and the Teaching Team </p>\n <br>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpaobfEOq5QkOtcgy4nnnkbg%3D%3D",
+        "rawText": "<p>Hi everyone,</p><br><p>It has been great seeing you all in our classes today! We have now officially completed part one of the module.</p><br><p>You now possess all the necessary theoretical information, and the practical skills (provided you have been completing the lab exercises) to successfully tackle your assignment. Please remember to carefully review the assignment brief for the exact deliverables and the submission due date.</p><br><p>I am currently finalising the schedule for the viva slots and will post a separate announcement as soon as they are ready.&nbsp;</p><br><p>Additionally, if you have not already done so, please take a moment to provide your feedback on the module so far by scanning the QR code.</p><br><br><p><a href=\"https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533381_1/QRCode%20for%20Semester%201_%20Mid%20Module%20Feedback_CMP-6057A_ADVANCED%20WEB%20DEVELOPMENT.png\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;displayName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;fileName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;,&quot;fileSize&quot;:1924295,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533381_1/QRCode%20for%20Semester%201_%20Mid%20Module%20Feedback_CMP-6057A_ADVANCED%20WEB%20DEVELOPMENT.png&quot;,&quot;linkName&quot;:&quot;QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png&quot;}\">QRCode for Semester 1_ Mid Module Feedback_CMP-6057A_ADVANCED WEB DEVELOPMENT.png</a></p><br><br><p>Happy coding!</p><br><br><p>Jeannette and the Teaching Team </p><br><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_533381_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-10-20T16:49:17.778Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_533381_1",
+      "isDraft": false,
+      "modifiedDate": "2026-10-20T16:49:17.838Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 5,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-10-25T08:45:41.152Z",
+        "isRead": true,
+        "updateDate": "2026-10-25T08:45:41.152Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-10-20T16:49:17.836Z",
+      "title": "Week 5",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_532543_1",
+    "title": "Week 4",
+    "path": "Announcements/Week 4",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_532543_1",
+    "html": "<p>Published: 2026-10-15T09:01:09.019Z</p>\n<p>Hi everyone,</p><br><p>It was great seeing you all in class on Tuesday. I hope you are making good progress on this week's lab exercises. Please aim to complete them before next week's session so you are well-prepared for the new material. If you run into any problems - especially with PostgreSQL - please let us know so we can help you get it sorted.</p><br><p>Next week, we are diving into full-stack development. We will be covering the implementation of custom credentials, JWT session handling, and securing routes, and database integration. </p><br><p>A reminder - if you have not booked your week 8 viva slot please do so as soon as you can. You can find the link in your mailbox (email sent by me on 8 October) </p><br><p>Have a productive week and see you all next week!</p><br><p>Jeannette and the Teaching Team </p><br>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hi everyone,</p>\n <br>\n <p>It was great seeing you all in class on Tuesday. I hope you are making good progress on this week's lab exercises. Please aim to complete them before next week's session so you are well-prepared for the new material. If you run into any problems - especially with PostgreSQL - please let us know so we can help you get it sorted.</p>\n <br>\n <p>Next week, we are diving into full-stack development. We will be covering the implementation of custom credentials, JWT session handling, and securing routes, and database integration. </p>\n <br>\n <p>A reminder - if you have not booked your week 8 viva slot please do so as soon as you can. You can find the link in your mailbox (email sent by me on 8 October) </p>\n <br>\n <p>Have a productive week and see you all next week!</p>\n <br>\n <p>Jeannette and the Teaching Team </p>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSptx9UsmRQkFutxsdRybO3cQ%3D%3D",
+        "rawText": "<p>Hi everyone,</p><br><p>It was great seeing you all in class on Tuesday. I hope you are making good progress on this week's lab exercises. Please aim to complete them before next week's session so you are well-prepared for the new material. If you run into any problems - especially with PostgreSQL - please let us know so we can help you get it sorted.</p><br><p>Next week, we are diving into full-stack development. We will be covering the implementation of custom credentials, JWT session handling, and securing routes, and database integration. </p><br><p>A reminder - if you have not booked your week 8 viva slot please do so as soon as you can. You can find the link in your mailbox (email sent by me on 8 October) </p><br><p>Have a productive week and see you all next week!</p><br><p>Jeannette and the Teaching Team </p><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_532543_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-10-15T09:01:09.010Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_532543_1",
+      "isDraft": false,
+      "modifiedDate": "2026-10-15T09:01:09.019Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 6,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:30:29.397Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:30:29.397Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-10-15T09:01:09.019Z",
+      "title": "Week 4",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_532174_1",
+    "title": "PostgresSQL DB login details ",
+    "path": "Announcements/PostgresSQL DB login details ",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_532174_1",
+    "html": "<p>Published: 2026-10-13T10:44:43.601Z</p>\n<p>Hi everyone,</p><br><p>Please keep an eye on your inbox today. We will be sending out an email containing your account details and password-related information.</p><br><p>Once you receive it, please follow the included instructions to set up your access.</p><br><br><p>Jeannette and CMP IT team </p>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hi everyone,</p>\n <br>\n <p>Please keep an eye on your inbox today. We will be sending out an email containing your account details and password-related information.</p>\n <br>\n <p>Once you receive it, please follow the included instructions to set up your access.</p>\n <br>\n <br>\n <p>Jeannette and CMP IT team </p>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSptx9UsmRQkFuaCDYrUBxZMQ%3D%3D",
+        "rawText": "<p>Hi everyone,</p><br><p>Please keep an eye on your inbox today. We will be sending out an email containing your account details and password-related information.</p><br><p>Once you receive it, please follow the included instructions to set up your access.</p><br><br><p>Jeannette and CMP IT team </p>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_532174_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-10-13T10:44:43.591Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_532174_1",
+      "isDraft": false,
+      "modifiedDate": "2026-10-13T10:44:43.603Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 7,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:30:26.191Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:30:26.191Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-10-13T10:44:43.601Z",
+      "title": "PostgresSQL DB login details ",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_531584_1",
+    "title": "Select your 001 Assessment Viva Slot (on week 8)",
+    "path": "Announcements/Select your 001 Assessment Viva Slot (on week 8)",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_531584_1",
+    "html": "<p>Published: 2026-10-08T08:14:22.709Z</p>\n<p>Hello all,</p><br><p>The schedule for the upcoming 001 Assessment Viva is now available.</p><br><p>Please sign up for a viva time by entering your full name and student ID next to your preferred slot on the spreadsheet linked below:</p><br><p>🔗 <a href=\"http://Select your preferred slot\">https://ueanorwich-my.sharepoint.com/:x:/r/personal/cew19wcu_uea_ac_uk/Documents/6057-7057%20001%20VIVA%20slots.xlsx?d=wb2132676da0e4144849a931940909f93&amp;csf=1&amp;web=1&amp;e=JVEwvz</a></p><br><p><strong>Important notes:</strong></p><br><ul><li>First-come, first-served: Slots are limited per session, so please book early to secure your preferred time.</li><li>Do not edit others' entries: Please only write in vacant slots.</li><li>Deadline: Please make sure you have selected your preferred slot by Wednesday 4 November at 5pm. Anyone who has not signed up by then will be allocated a remaining slot automatically.</li></ul><br><p>If you have any clashes or other scheduling issues, please get in touch with me as soon as possible.</p><br><br><p>Jeannette </p><br><br>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hello all,</p>\n <br>\n <p>The schedule for the upcoming 001 Assessment Viva is now available.</p>\n <br>\n <p>Please sign up for a viva time by entering your full name and student ID next to your preferred slot on the spreadsheet linked below:</p>\n <br>\n <p>🔗 <a href=\"http://Select your preferred slot\">https://ueanorwich-my.sharepoint.com/:x:/r/personal/cew19wcu_uea_ac_uk/Documents/6057-7057%20001%20VIVA%20slots.xlsx?d=wb2132676da0e4144849a931940909f93&amp;csf=1&amp;web=1&amp;e=JVEwvz</a></p>\n <br>\n <p><strong>Important notes:</strong></p>\n <br>\n <ul>\n  <li>First-come, first-served: Slots are limited per session, so please book early to secure your preferred time.</li>\n  <li>Do not edit others' entries: Please only write in vacant slots.</li>\n  <li>Deadline: Please make sure you have selected your preferred slot by Wednesday 4 November at 5pm. Anyone who has not signed up by then will be allocated a remaining slot automatically.</li>\n </ul>\n <br>\n <p>If you have any clashes or other scheduling issues, please get in touch with me as soon as possible.</p>\n <br>\n <br>\n <p>Jeannette </p>\n <br>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpv6ZVtgfTwKSOF%2BPlHcyzdw%3D%3D",
+        "rawText": "<p>Hello all,</p><br><p>The schedule for the upcoming 001 Assessment Viva is now available.</p><br><p>Please sign up for a viva time by entering your full name and student ID next to your preferred slot on the spreadsheet linked below:</p><br><p>🔗 <a href=\"http://Select your preferred slot\">https://ueanorwich-my.sharepoint.com/:x:/r/personal/cew19wcu_uea_ac_uk/Documents/6057-7057%20001%20VIVA%20slots.xlsx?d=wb2132676da0e4144849a931940909f93&amp;csf=1&amp;web=1&amp;e=JVEwvz</a></p><br><p><strong>Important notes:</strong></p><br><ul><li>First-come, first-served: Slots are limited per session, so please book early to secure your preferred time.</li><li>Do not edit others' entries: Please only write in vacant slots.</li><li>Deadline: Please make sure you have selected your preferred slot by Wednesday 4 November at 5pm. Anyone who has not signed up by then will be allocated a remaining slot automatically.</li></ul><br><p>If you have any clashes or other scheduling issues, please get in touch with me as soon as possible.</p><br><br><p>Jeannette </p><br><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_531584_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-10-08T08:14:22.697Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_531584_1",
+      "isDraft": false,
+      "modifiedDate": "2026-10-08T08:14:22.710Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 8,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:30:30.652Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:30:30.652Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-10-08T08:14:22.709Z",
+      "title": "Select your 001 Assessment Viva Slot (on week 8)",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_531437_1",
+    "title": "Week 3",
+    "path": "Announcements/Week 3",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_531437_1",
+    "html": "<p>Published: 2026-10-07T07:56:20.529Z</p>\n<p>Hi everyone,</p><br><p>It was great seeing you all in yesterday's Advanced Web Development class, and a big thank you to those who took the time to share feedback - it is always appreciated.</p><br><p>As mentioned at the start of the semester, this module moves at a brisk pace. We have a lot of ground to cover, which makes independent study outside of class essential. Please make sure to stay on top of the learning materials and complete your lab exercises before next week’s session. If you run into any blockers or have questions while working through them, don't hesitate to reach out.</p><br><p>Looking ahead to next week, we will be diving into Web Security with Open Authorisation (Auth0 API) &amp; Prisma ORM. In this session, we will focus on hands-on implementation, including:</p><br><ul><li>Setting up authentication using the Google Provider via Auth0</li><li>Integrating our application database using Prisma ORM</li></ul><br><p>Have a productive week and see you all next week!</p><br><p>Jeannette and the Teaching Team </p><br>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hi everyone,</p>\n <br>\n <p>It was great seeing you all in yesterday's Advanced Web Development class, and a big thank you to those who took the time to share feedback - it is always appreciated.</p>\n <br>\n <p>As mentioned at the start of the semester, this module moves at a brisk pace. We have a lot of ground to cover, which makes independent study outside of class essential. Please make sure to stay on top of the learning materials and complete your lab exercises before next week’s session. If you run into any blockers or have questions while working through them, don't hesitate to reach out.</p>\n <br>\n <p>Looking ahead to next week, we will be diving into Web Security with Open Authorisation (Auth0 API) &amp; Prisma ORM. In this session, we will focus on hands-on implementation, including:</p>\n <br>\n <ul>\n  <li>Setting up authentication using the Google Provider via Auth0</li>\n  <li>Integrating our application database using Prisma ORM</li>\n </ul>\n <br>\n <p>Have a productive week and see you all next week!</p>\n <br>\n <p>Jeannette and the Teaching Team </p>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpv6ZVtgfTwKSr9V0wsDwcvA%3D%3D",
+        "rawText": "<p>Hi everyone,</p><br><p>It was great seeing you all in yesterday's Advanced Web Development class, and a big thank you to those who took the time to share feedback - it is always appreciated.</p><br><p>As mentioned at the start of the semester, this module moves at a brisk pace. We have a lot of ground to cover, which makes independent study outside of class essential. Please make sure to stay on top of the learning materials and complete your lab exercises before next week’s session. If you run into any blockers or have questions while working through them, don't hesitate to reach out.</p><br><p>Looking ahead to next week, we will be diving into Web Security with Open Authorisation (Auth0 API) &amp; Prisma ORM. In this session, we will focus on hands-on implementation, including:</p><br><ul><li>Setting up authentication using the Google Provider via Auth0</li><li>Integrating our application database using Prisma ORM</li></ul><br><p>Have a productive week and see you all next week!</p><br><p>Jeannette and the Teaching Team </p><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_531437_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-10-07T07:56:20.492Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_531437_1",
+      "isDraft": false,
+      "modifiedDate": "2026-10-07T07:56:20.533Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 9,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:30:43.172Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:30:43.172Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-10-07T07:56:20.529Z",
+      "title": "Week 3",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_530526_1",
+    "title": "Week 2: Lab Fixes, Git Reminders, and Looking Ahead to Next Week",
+    "path": "Announcements/Week 2: Lab Fixes, Git Reminders, and Looking Ahead to Next Week",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_530526_1",
+    "html": "<p>Published: 2026-09-30T07:50:13.126Z</p>\n<p>Hello students, </p><br><p>It was great seeing everyone in class yesterday! Thank you all for your engagement.</p><br><p>Here are a few important updates and reminders for this week:</p><br><ol><li>VS Code \"JSON to TS\" Extension: We are aware that the JSON to TS plugin is currently unavailable on the lab machines; apologies for the inconvenience. To work around this, I have uploaded the required TypeScript types (BookProps.tsx) directly to Blackboard. Please download this file and place it into the appropriate folder in your project.</li><li>Lab Progress (Lab 2.0 &amp; 2.1): Well done to everyone who finished Lab 2.0 during the session! I strongly encourage you to complete Lab2.1 before next week’s class. This part focuses on working with simple React state, which will be essential moving forward.</li><li>Use StuGit, Not Personal GitHub: A quick reminder that all coursework and lab repositories for this module must be hosted on our internal StuGit instance, not your personal GitHub accounts.</li><li>Lecture Code: If you want to review or build on the code demonstrated in yesterday's lecture, the repository URLs can be found directly in the lecture slides on Blackboard.</li></ol><br><p><strong>Looking Ahead to Next Week</strong></p><br><p>Next week we dive into Next.js and Redux Toolkit (RTK). We will cover:</p><br><ul><li>Next.js Basics &amp; Rendering Strategies</li><li>Routing and Navigation</li><li>Client vs. Server Components</li><li>Data Fetching (Client and Server)</li><li>The useEffect hook</li><li>Global State Management with Redux Toolkit</li></ul><br><p>See you all in the next week!</p><br><br><p>Jeannette and the Teaching Team</p><br><br><br>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hello students, </p>\n <br>\n <p>It was great seeing everyone in class yesterday! Thank you all for your engagement.</p>\n <br>\n <p>Here are a few important updates and reminders for this week:</p>\n <br>\n <ol>\n  <li>VS Code \"JSON to TS\" Extension: We are aware that the JSON to TS plugin is currently unavailable on the lab machines; apologies for the inconvenience. To work around this, I have uploaded the required TypeScript types (BookProps.tsx) directly to Blackboard. Please download this file and place it into the appropriate folder in your project.</li>\n  <li>Lab Progress (Lab 2.0 &amp; 2.1): Well done to everyone who finished Lab 2.0 during the session! I strongly encourage you to complete Lab2.1 before next week’s class. This part focuses on working with simple React state, which will be essential moving forward.</li>\n  <li>Use StuGit, Not Personal GitHub: A quick reminder that all coursework and lab repositories for this module must be hosted on our internal StuGit instance, not your personal GitHub accounts.</li>\n  <li>Lecture Code: If you want to review or build on the code demonstrated in yesterday's lecture, the repository URLs can be found directly in the lecture slides on Blackboard.</li>\n </ol>\n <br>\n <p><strong>Looking Ahead to Next Week</strong></p>\n <br>\n <p>Next week we dive into Next.js and Redux Toolkit (RTK). We will cover:</p>\n <br>\n <ul>\n  <li>Next.js Basics &amp; Rendering Strategies</li>\n  <li>Routing and Navigation</li>\n  <li>Client vs. Server Components</li>\n  <li>Data Fetching (Client and Server)</li>\n  <li>The useEffect hook</li>\n  <li>Global State Management with Redux Toolkit</li>\n </ul>\n <br>\n <p>See you all in the next week!</p>\n <br>\n <br>\n <p>Jeannette and the Teaching Team</p>\n <br>\n <br>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpLNVlRIrRvzZJeOIzYMQGQg%3D%3D",
+        "rawText": "<p>Hello students, </p><br><p>It was great seeing everyone in class yesterday! Thank you all for your engagement.</p><br><p>Here are a few important updates and reminders for this week:</p><br><ol><li>VS Code \"JSON to TS\" Extension: We are aware that the JSON to TS plugin is currently unavailable on the lab machines; apologies for the inconvenience. To work around this, I have uploaded the required TypeScript types (BookProps.tsx) directly to Blackboard. Please download this file and place it into the appropriate folder in your project.</li><li>Lab Progress (Lab 2.0 &amp; 2.1): Well done to everyone who finished Lab 2.0 during the session! I strongly encourage you to complete Lab2.1 before next week’s class. This part focuses on working with simple React state, which will be essential moving forward.</li><li>Use StuGit, Not Personal GitHub: A quick reminder that all coursework and lab repositories for this module must be hosted on our internal StuGit instance, not your personal GitHub accounts.</li><li>Lecture Code: If you want to review or build on the code demonstrated in yesterday's lecture, the repository URLs can be found directly in the lecture slides on Blackboard.</li></ol><br><p><strong>Looking Ahead to Next Week</strong></p><br><p>Next week we dive into Next.js and Redux Toolkit (RTK). We will cover:</p><br><ul><li>Next.js Basics &amp; Rendering Strategies</li><li>Routing and Navigation</li><li>Client vs. Server Components</li><li>Data Fetching (Client and Server)</li><li>The useEffect hook</li><li>Global State Management with Redux Toolkit</li></ul><br><p>See you all in the next week!</p><br><br><p>Jeannette and the Teaching Team</p><br><br><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_530526_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-09-30T07:50:13.115Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_530526_1",
+      "isDraft": false,
+      "modifiedDate": "2026-09-30T07:50:13.128Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 10,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:30:46.429Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:30:46.429Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-09-30T07:50:13.126Z",
+      "title": "Week 2: Lab Fixes, Git Reminders, and Looking Ahead to Next Week",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_529621_1",
+    "title": "Week 1 ",
+    "path": "Announcements/Week 1 ",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_529621_1",
+    "html": "<p>Published: 2026-09-23T08:08:48.887Z</p>\n<p>Hi everyone,</p><br><p>It was great meeting you all yesterday for our first sessions of the module! I hope you found the induction informative and that the introduction to TypeScript provided a solid foundation for what is ahead.</p><br><p>Please take note of the following key reminders and updates for the week:</p><ul><li>Week 1 Lab Exercises: Ensure you complete the TypeScript lab exercises before our next lecture. Consistent hands-on practice is essential for keeping up with the coursework.</li><li>Git Repository Support: If you encounter any difficulties accessing or configuring your student Git repository, please reach out to the teaching team as soon as possible so we can get it sorted.</li><li>Assignment 001 Released: Assignment 001 has been released on BB. Please note that this is an <strong>individual assessment</strong>. Take time to read through the specification thoroughly. If anything requires clarification, post your questions on the discussions board or email me; I will address common queries at the start of next week's session.</li><li>Looking Ahead to Week 2 (React): Next week, we will dive into React, web frontend development. Please review the preparatory learning materials and readings uploaded under the Week 2 folder on the BB before next week session so you can get the most out of the lecture.</li></ul><br><p>Have a productive week, and we look forward to seeing you all in the next session!</p><br><br><p>Jeannette and the Teaching Team </p><br><br>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hi everyone,</p>\n <br>\n <p>It was great meeting you all yesterday for our first sessions of the module! I hope you found the induction informative and that the introduction to TypeScript provided a solid foundation for what is ahead.</p>\n <br>\n <p>Please take note of the following key reminders and updates for the week:</p>\n <ul>\n  <li>Week 1 Lab Exercises: Ensure you complete the TypeScript lab exercises before our next lecture. Consistent hands-on practice is essential for keeping up with the coursework.</li>\n  <li>Git Repository Support: If you encounter any difficulties accessing or configuring your student Git repository, please reach out to the teaching team as soon as possible so we can get it sorted.</li>\n  <li>Assignment 001 Released: Assignment 001 has been released on BB. Please note that this is an <strong>individual assessment</strong>. Take time to read through the specification thoroughly. If anything requires clarification, post your questions on the discussions board or email me; I will address common queries at the start of next week's session.</li>\n  <li>Looking Ahead to Week 2 (React): Next week, we will dive into React, web frontend development. Please review the preparatory learning materials and readings uploaded under the Week 2 folder on the BB before next week session so you can get the most out of the lecture.</li>\n </ul>\n <br>\n <p>Have a productive week, and we look forward to seeing you all in the next session!</p>\n <br>\n <br>\n <p>Jeannette and the Teaching Team </p>\n <br>\n <br>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSpyajzh88d9QcaPT0zEps3lQ%3D%3D",
+        "rawText": "<p>Hi everyone,</p><br><p>It was great meeting you all yesterday for our first sessions of the module! I hope you found the induction informative and that the introduction to TypeScript provided a solid foundation for what is ahead.</p><br><p>Please take note of the following key reminders and updates for the week:</p><ul><li>Week 1 Lab Exercises: Ensure you complete the TypeScript lab exercises before our next lecture. Consistent hands-on practice is essential for keeping up with the coursework.</li><li>Git Repository Support: If you encounter any difficulties accessing or configuring your student Git repository, please reach out to the teaching team as soon as possible so we can get it sorted.</li><li>Assignment 001 Released: Assignment 001 has been released on BB. Please note that this is an <strong>individual assessment</strong>. Take time to read through the specification thoroughly. If anything requires clarification, post your questions on the discussions board or email me; I will address common queries at the start of next week's session.</li><li>Looking Ahead to Week 2 (React): Next week, we will dive into React, web frontend development. Please review the preparatory learning materials and readings uploaded under the Week 2 folder on the BB before next week session so you can get the most out of the lecture.</li></ul><br><p>Have a productive week, and we look forward to seeing you all in the next session!</p><br><br><p>Jeannette and the Teaching Team </p><br><br>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_529621_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-09-23T08:08:48.869Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_529621_1",
+      "isDraft": false,
+      "modifiedDate": "2026-09-23T08:08:48.888Z",
+      "permanent": true,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 11,
+      "pushNotify": true,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:31:11.606Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:31:11.606Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-09-23T08:08:48.887Z",
+      "title": "Week 1 ",
+      "type": "COURSE"
+    }
+  },
+  {
+    "id": "_527879_1",
+    "title": "Welcome to the module",
+    "path": "Announcements/Welcome to the module",
+    "kind": "announcement",
+    "source": "https://learn.uea.ac.uk/ultra/courses/_158570_1/announcements/announcement-detail?courseId=_158570_1&announcementId=_527879_1",
+    "html": "<p>Published: 2026-09-18T08:00:51.105Z</p>\n<p>Hello everyone,</p><br><p>I hope you all had a restful summer break. Welcome back!</p><br><p>This module is designed to take your web development skills to the next level. To succeed, you'll need to be proficient in JavaScript, especially with functions and asynchronous programming concepts (Promise, async and await). </p><br><p>Over the semester, we'll dive into two main topics:</p><br><ul><li>First, you'll learn to build modern full-stack web applications using the latest version of Next.js and React.</li><li>Then, we'll explore WebAI, exploring TensorFlow.js &amp; Transformers.js to run models directly on the browser.</li></ul><br><p>Our first lecture is scheduled for Tuesday, 22 September, from 14:00 - 16:00 in Data Science and AI Lab (room Sci 0.59). During this session, I will introduce the module, provide details about the first assessment, and then we'll dive in our full stack web development starts with Typescript.&nbsp;Your attendance is important, as we will cover key information.</p><br><p>The lecture will be followed by a practical lab session from 16:00 to 18:00 in the same lab.</p><br><p>All module materials, including weekly lecture slides, lab exercises, and assessment details, will be posted on the Blackboard module page in a timely manner. Please take some time to review these materials before each week's lecture and lab.</p><br><p>If you have any questions, please don't hesitate to reach out to me at j.chin@uea.ac.uk.</p><br><p>We look forward to seeing you all next week!</p><br><br><p>Jeannette and the Teaching Team</p>",
+    "files": [],
+    "metadata": {
+      "body": {
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Hello everyone,</p>\n <br>\n <p>I hope you all had a restful summer break. Welcome back!</p>\n <br>\n <p>This module is designed to take your web development skills to the next level. To succeed, you'll need to be proficient in JavaScript, especially with functions and asynchronous programming concepts (Promise, async and await). </p>\n <br>\n <p>Over the semester, we'll dive into two main topics:</p>\n <br>\n <ul>\n  <li>First, you'll learn to build modern full-stack web applications using the latest version of Next.js and React.</li>\n  <li>Then, we'll explore WebAI, exploring TensorFlow.js &amp; Transformers.js to run models directly on the browser.</li>\n </ul>\n <br>\n <p>Our first lecture is scheduled for Tuesday, 22 September, from 14:00 - 16:00 in Data Science and AI Lab (room Sci 0.59). During this session, I will introduce the module, provide details about the first assessment, and then we'll dive in our full stack web development starts with Typescript.&nbsp;Your attendance is important, as we will cover key information.</p>\n <br>\n <p>The lecture will be followed by a practical lab session from 16:00 to 18:00 in the same lab.</p>\n <br>\n <p>All module materials, including weekly lecture slides, lab exercises, and assessment details, will be posted on the Blackboard module page in a timely manner. Please take some time to review these materials before each week's lecture and lab.</p>\n <br>\n <p>If you have any questions, please don't hesitate to reach out to me at j.chin@uea.ac.uk.</p>\n <br>\n <p>We look forward to seeing you all next week!</p>\n <br>\n <br>\n <p>Jeannette and the Teaching Team</p>\n</div>",
+        "fileLocation": "BB%3FBB_N2xCg%2Bn1OUchyayMZDj001Y/LpUkEzl4vTLqj%2B%2BJypukBuL59mBoY7Lo9KTgqqSp%2BA0LDkzpHohcnFmEfyA/4Q%3D%3D",
+        "rawText": "<p>Hello everyone,</p><br><p>I hope you all had a restful summer break. Welcome back!</p><br><p>This module is designed to take your web development skills to the next level. To succeed, you'll need to be proficient in JavaScript, especially with functions and asynchronous programming concepts (Promise, async and await). </p><br><p>Over the semester, we'll dive into two main topics:</p><br><ul><li>First, you'll learn to build modern full-stack web applications using the latest version of Next.js and React.</li><li>Then, we'll explore WebAI, exploring TensorFlow.js &amp; Transformers.js to run models directly on the browser.</li></ul><br><p>Our first lecture is scheduled for Tuesday, 22 September, from 14:00 - 16:00 in Data Science and AI Lab (room Sci 0.59). During this session, I will introduce the module, provide details about the first assessment, and then we'll dive in our full stack web development starts with Typescript.&nbsp;Your attendance is important, as we will cover key information.</p><br><p>The lecture will be followed by a practical lab session from 16:00 to 18:00 in the same lab.</p><br><p>All module materials, including weekly lecture slides, lab exercises, and assessment details, will be posted on the Blackboard module page in a timely manner. Please take some time to review these materials before each week's lecture and lab.</p><br><p>If you have any questions, please don't hesitate to reach out to me at j.chin@uea.ac.uk.</p><br><p>We look forward to seeing you all next week!</p><br><br><p>Jeannette and the Teaching Team</p>",
+        "webLocation": "https://learn.uea.ac.uk/bbcswebdav/internal/courses/CMP-6057A-26-SEM1-A/announcements/_527879_1/"
+      },
+      "courseId": "_158570_1",
+      "createdDate": "2026-09-13T21:01:10.405Z",
+      "creatorUserId": "_319530_1",
+      "endDateRestriction": null,
+      "id": "_527879_1",
+      "isDraft": false,
+      "modifiedDate": "2026-09-17T17:45:11.817Z",
+      "permanent": false,
+      "permissions": {
+        "viewCourseOrOrgAnnouncements": true
+      },
+      "position": 12,
+      "pushNotify": false,
+      "readStatus": {
+        "firstReadDate": "2026-11-04T18:31:13.985Z",
+        "isRead": true,
+        "updateDate": "2026-11-04T18:31:13.985Z"
+      },
+      "readTracking": true,
+      "startDateRestriction": "2026-09-18T08:00:51.105Z",
+      "title": "Welcome to the module",
+      "type": "COURSE"
+    }
+  }
+]

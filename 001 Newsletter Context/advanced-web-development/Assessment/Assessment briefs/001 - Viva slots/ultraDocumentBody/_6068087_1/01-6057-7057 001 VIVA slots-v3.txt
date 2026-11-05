@@ -1,0 +1,60 @@
+            A                  B                         C                D                           E
+1 Date              Time                      Room           Student ID             Name
+2 11/11/2026 Weds   09:00am                   Sci 2.27                    100478222 Zekiah Amoako-Gyampah
+3                   09:00am                   Sci 2.28                    100484431 Sam Penney
+4                   09:20am                   Sci 2.27                    100484263 Yaroslav Halik
+5                   09:20am                   Sci 2.28                    100432586 Harry Thomas
+6                   09:40am                   Sci 2.27                    100477628 Nathan Mastin
+7                   09:40am                   Sci 2.28                    100433586 James Bills
+8                   10:00am                   Sci 2.27                    100496961 Ahmed Mokhles
+9                   10:05am                   Sci 2.28                    100397542 Jack Sexbery
+10                  10:20am                   Sci 2.27                    100432586 Harry Thomas
+11                  10:25am                   Sci 2.28                    100483132 Chris Clark
+12                  10:40am                   Sci 2.27                    100479049 Blake Patchett
+13                  10:45am                   Sci 2.28                    100469387 Cailey Guan-Robinson
+14                  11:00am                   Sci 2.27                    100434892 Giorgio Ellis
+15                  11:05am                   Sci 2.28                    100463890 Jason Umahi
+16                  11:20am                   Sci 2.27                    100421777 Amro Elata
+17                  11:25am                   Sci 2.28                    100486277 Julian Warkus
+18                  11:45am                   Sci 2.27                    100486278 Thiago Cantarelli
+19                  11:50am                   Sci 2.28                    100487104 Ummi Hussain
+20
+21                  13:00 pm                  Sci 2.27                    100433136 Joe Harris
+22                  13:00 pm                  Sci 2.28
+23                  13:25 pm                  Sci 2.27                    100432201 Archie McCulloch
+24                  13:25 pm                  Sci 2.28                    100475725 Rishik Kantam
+25                  14:00 pm (masters only)   Sci 2.27                    100534642 Simon Butcher
+26                  14:00 pm (masters only)   Sci 2.28                    100541025 Chaitanya Charagundla
+27                  14:20 pm (master only)    Sci 2.27                    100539970 Tharun Modepu
+28                  14:20 pm (master only)    Sci 2.28                    100343990 Nedas Pleckaitis
+29                  14:40 pm (master only)    Sci 2.27                    100572099 Mangkaled Pongpumpiched
+30                  14:40 pm (master only)    Sci 2.28                    100540042 Chaitanya Tallapalli
+31                  15:00 pm (master only)    Sci 2.27                    100535057 SAKIBKHANH DOLATKHAN PATHAN
+32                  15:00 pm (master only)    Sci 2.28                    100541680 Kamalesh Packirisamy
+33                  15:20pm (masters only)    Sci 2.27                    100531372 Dale Miller
+             A                  B                       C   D                           E
+34                    15:20pm (masters only) Sci 2.28        100398179 Luke Wilson
+35
+36
+37
+38
+39 12/11/2026 Thurs   09:00am                Sci 2.27        100487208 Keiran Hall
+40                    09:20am                Sci 2.27        100481350 Toby Forsyth
+41                    09:20am                Sci 2.28        100429560 Grace Patrick
+42                    09:45am                Sci 2.27        100474950 Nicholas Morris
+43                    09:45am                Sci 2.28        100464072 Fudail Ahmed
+44                    10:05am                Sci 2.27        100486072 Charlotte Ngai
+45                    10:05am                Sci 2.28        100463908 Denis Komarovs
+46                    10:25am                Sci 2.27        100432669 Connor Gower
+47                    10:25am                Sci 2.28        100464183 Isabel Choong Gregory
+48                    10:45am                Sci 2.28        100468824 Keelan Reddings
+49                    11:05am                Sci 2.28        100432897 Duaine Nettey
+50                    11:25am                Sci 2.28        100487459 Jack Ho
+51                    11:45am                Sci 2.28        100436361 Jordan Elliott
+52                    12:10pm                Sci 2.28        100500753 Saeedkhaled Handoom
+53                    12:30pm                Sci 2.28        100401260 Riley Oliver
+54                    12:50pm                Sci 2.28        100464172 Lucas Graf Von Westarp
+55                    13.10pm                Sci 2.28        100501057 Stevo Asante
+56
+57
+

@@ -1,0 +1,34 @@
+{
+  "hard_tabs": true,
+  "tab_size": 4,
+  "languages": {
+    "JavaScript": {
+      "formatter": [],
+      "code_actions_on_format": { "source.fixAll.eslint": true }
+    },
+    "JSX": {
+      "formatter": [],
+      "code_actions_on_format": { "source.fixAll.eslint": true }
+    },
+    "TypeScript": {
+      "formatter": [],
+      "code_actions_on_format": { "source.fixAll.eslint": true }
+    },
+    "TSX": {
+      "formatter": [],
+      "code_actions_on_format": { "source.fixAll.eslint": true }
+    },
+    "JSON": {
+      "hard_tabs": false,
+      "tab_size": 2
+    },
+    "JSONC": {
+      "hard_tabs": false,
+      "tab_size": 2
+    },
+    "Markdown": {
+      "hard_tabs": false,
+      "tab_size": 2
+    }
+  }
+}
