@@ -1,0 +1,110 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-geist-sans);
+	--font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Equal side columns keep the centre pill centred independently of their content. */
+.pill-header {
+	position: relative;
+	z-index: 20;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+	align-items: center;
+	gap: 0.75rem;
+	width: min(100%, 80rem);
+	margin-inline: auto;
+	padding: 1rem;
+}
+.glass-pill, .glass-menu {
+	color: var(--color-base-content);
+	background: color-mix(in srgb, var(--color-base-100) 90%, transparent);
+	border: 1px solid color-mix(in srgb, var(--color-base-content) 8%, transparent);
+	box-shadow: 0 2px 8px rgb(0 0 0 / 0.025);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+}
+.glass-pill { border-radius: 9999px; }
+.brand-pill {
+	justify-self: start;
+	padding: 0.8rem 1.1rem;
+	font-size: 0.95rem;
+	font-weight: 650;
+	letter-spacing: -0.025em;
+	white-space: nowrap;
+}
+.navigation-pill { justify-self: center; max-width: 100%; padding: 0.25rem; }
+.navigation-links, .account-pill { display: flex; align-items: center; gap: 0.25rem; }
+.navigation-links { margin: 0; padding: 0; list-style: none; }
+.nav-pill-link, .account-trigger {
+	min-height: 2.5rem;
+	height: auto;
+	padding: 0.6rem 0.9rem;
+	border-radius: 9999px;
+	font-size: 0.875rem;
+	font-weight: 550;
+	white-space: nowrap;
+}
+.nav-pill-link-active { background: color-mix(in srgb, var(--color-base-content) 12%, transparent); }
+.account-pill { justify-self: end; padding: 0.25rem; }
+.account-trigger { list-style: none; }
+.account-trigger::-webkit-details-marker { display: none; }
+.account-initial {
+	display: grid;
+	place-items: center;
+	width: 1.6rem;
+	height: 1.6rem;
+	border-radius: 50%;
+	background: color-mix(in srgb, var(--color-base-content) 12%, transparent);
+}
+.account-name { max-width: 7rem; overflow: hidden; text-overflow: ellipsis; }
+.glass-menu { width: 12rem; margin-top: 0.75rem; padding: 0.5rem; border-radius: 1.25rem; }
+.pill-header a:focus-visible, .pill-header button:focus-visible, .pill-header summary:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 3px;
+}
+.brand-short { display: none; }
+.nav-pill-link, .account-trigger { box-shadow: none; }
+
+@media (max-width: 47.99rem) {
+	.pill-header { gap: 0.5rem; padding: 0.75rem; }
+	.brand-pill { padding: 0.75rem 0.85rem; font-size: 0.875rem; }
+	.nav-pill-link, .account-trigger { padding-inline: 0.65rem; font-size: 0.8rem; }
+}
+
+@media (max-width: 35.99rem) {
+	.pill-header {
+		grid-template-columns: auto minmax(0, 1fr) auto;
+		gap: 0.35rem;
+		padding: 0.65rem 0.5rem;
+	}
+	.brand-full { display: none; }
+	.brand-short { display: inline; }
+	.brand-pill { padding-inline: 0.65rem; }
+	.navigation-pill, .account-pill { padding: 0.15rem; }
+	.navigation-links, .account-pill { gap: 0; }
+	.nav-pill-link, .account-trigger { padding-inline: 0.5rem; font-size: 0.75rem; }
+	.account-name { display: none; }
+}
