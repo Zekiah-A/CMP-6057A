@@ -1,11 +1,14 @@
-// Lab 5 p. 2: visual form reference only; no form UI or behaviour is implemented.
-// Source details and local lab references: README.md at the project root.
+import RegistrationForm from "@/app/components/RegistrationForm";
+
 export default function RegisterPage() {
 	return (
-		<section className="space-y-4">
-			<p className="badge badge-outline">AI-generated reference shell</p>
-			<h1 className="text-3xl font-bold">Register</h1>
-			<p>Registration is not available. Account creation and form handling are not implemented.</p>
+		<section className="mx-auto w-full max-w-md space-y-5">
+			<div className="space-y-2 text-center">
+				<p className="badge badge-outline">Newsletter CMS</p>
+				<h1 className="text-3xl font-bold">Create your account</h1>
+				<p className="text-base-content/70">Set up an account to manage your newsletters.</p>
+			</div>
+			<RegistrationForm />
 		</section>
 	);
 }

@@ -1,15 +1,16 @@
 # Newsletter reference — AI-generated learning material
 
-**Not submission work. Slice 1 of 4: foundation/schema only.**
+**Not submission work. Slice 2 of 4: credentials authentication.**
 
 This isolated reference follows the module's minimum requirements using the student's existing route structure, dependencies, tabs and simple DaisyUI style. Do not copy it into the coursework/Stugit tree or represent it as independently authored work. No production-readiness claim is made.
 
 ## Current behaviour
 
-- Every planned route renders a shared, clearly labelled reference shell on port 3001.
+- Every planned route uses the shared, clearly labelled reference layout on port 3001.
 - PostgreSQL/Prisma schema describes the required users, newsletter fields, statuses and author relation.
 - Server-only client and CLI guards reject database URLs outside the local reference database/login.
-- Registration, login, protected access, CRUD and publication are **not implemented yet**. Dashboard placeholders are public at this stage and contain no private data. They are not evidence of finished route guarding.
+- Registration, login/logout and session-aware navigation now work. Dashboard and descendants require a verified session and an existing database user.
+- Newsletter CRUD and public publication are **not implemented yet**. Dashboard pages remain protected placeholders for slice 3.
 
 ## Run locally
 
@@ -33,9 +34,9 @@ From this directory:
 7. `npm run db:check -- --schema` — verify both tables and the author foreign key.
 8. `npm run dev` — open http://localhost:3001.
 
-Build/run: `npm run build`, then `npm start`. Checks: `npm run lint` and `npm run typecheck`. Start only one server on 3001 at a time. No database reset or migrations/shadow database are needed for the initial db-push workflow. A seed is optional under the brief and is not supplied in slice 1.
+Build/run: `npm run build`, then `npm start`. Checks: `npm run lint` and `npm run typecheck`. Start only one server on 3001 at a time. No database reset or migrations/shadow database are needed for the initial db-push workflow. A seed is optional under the brief; register your own disposable local account to try authentication.
 
-No database password or AUTH_SECRET belongs in Git. Auth.js will need a locally generated AUTH_SECRET in slice 2; it is not used by this shell.
+No database password or AUTH_SECRET belongs in Git. Auth.js requires the locally generated AUTH_SECRET; changing it invalidates current sessions.
 
 ## Why these pieces exist
 
@@ -45,7 +46,7 @@ No database password or AUTH_SECRET belongs in Git. Auth.js will need a locally 
 | `prisma.config.ts` | Prisma 7's CLI URL configuration; private dotenv loading and reference-only guard. |
 | `app/lib/prisma.ts` | Server-only adapter/client with development singleton, following Lab 4.1. Does not query data in the shell. |
 | `scripts/check-database.mjs` | New isolation safeguard, not a lab requirement: checks database/login before schema writes. |
-| Shared layout/navbar | App Router/DaisyUI shell following Lab 3.0. No fake logged-in state. |
+| Shared layout/navbar | App Router/DaisyUI shell following Lab 3.0; Lab 5 session hooks determine actual account controls. |
 
 Rubric p7 assigns 5% to registration, 15% to security, 5% to schema, 15% to dashboard CRUD, 5% to public feed and 5% to structure. The remaining 25% desirable and 25% viva are separate. This unfinished slice does not demonstrate the completed categories or guarantee marks.
 
@@ -74,3 +75,28 @@ Comments mark demonstrated patterns as adaptations. Newsletter-specific schema, 
 - Final MP4, single-page architecture diagram, README/auth description and Stugit submission are assessed deliverables; this reference is not a replacement for your submission or viva.
 
 Progress and restart context: [HANDOFF.md](HANDOFF.md).
+
+## Slice 2: authentication walkthrough
+
+1. Open `/register`, optionally enter a name, and choose an email/password. Passwords require at least 12 characters and at most 72 UTF-8 bytes (bcrypt's limit); no silent truncation.
+2. The JSON registration endpoint validates origin/input, normalises email, hashes with bcrypt cost 12 and inserts User. Database uniqueness handles concurrent duplicates. Only the new reference database is used.
+3. Log in using the new account. Auth.js Credentials looks it up and compares hashes; invalid credentials get a generic failure. Registration does not log you in automatically.
+4. Auth.js issues its encrypted JWT cookie. The jwt/session callbacks expose only id/name/email; authorisation never uses client state as proof.
+5. The verified Auth.js proxy checks dashboard routes, and each server page calls `requireUserId()` to also reject removed users. Later mutations must call this helper too; hiding a link is not protection.
+6. Logout uses Auth.js signOut, clears its cookie and refreshes the session UI. There is no manual localStorage session cache.
+
+Files: `auth.ts`, `proxy.ts`, `app/lib/credentials.ts`, `app/lib/session.ts`, registration/catch-all route handlers and the two forms. These adapt Lab 5 pp4–9, 18–23 and 30–38; cookie separation, server validation and direct authorisation are project safeguards.
+
+### Deliberate limitations
+
+- **Local HTTP reference only.** The app binds to loopback and uses non-Secure HttpOnly/SameSite=Lax cookies. Do not deploy this config publicly. Cookies use the `newsletter-reference.*` prefix to avoid collisions with coursework auth on another port. They are host-scoped, not port-scoped: use the same hostname consistently.
+- Session maxAge is eight hours. Activity/session refresh may extend it; this is not an absolute eight-hour-since-login policy. Logout removes this browser's cookie but does not revoke a previously copied token until expiry. Changing AUTH_SECRET invalidates all reference sessions.
+- Throttling is a bounded in-memory email-keyed counter: login 10/15 minutes, registration 5/15 minutes. It resets on restart, is not shared across processes, can be bypassed by varying emails and can temporarily deny an address targeted by others. This demonstrates a local defence, not production abuse protection.
+- Duplicate registration returns 409 and therefore reveals that an email is already registered. Login stays generic; a dummy hash comparison reduces one timing difference but does not promise identical response times.
+- A successful sign-in is not permission to access another author's data. Owner-scoped queries arrive in slice 3.
+
+### Verification
+
+Start the reference on port 3001, then `npm run test:auth` (uses Playwright and `/usr/bin/chromium`; set CHROMIUM_PATH for another installed Chromium). Run only against the reference database. The script creates a unique disposable account and deletes only that account afterwards. It checks guest denial on all dashboard pages, registration origin and password policy, optional-name UI signup, hash storage, duplicate normalisation, throttling, failed/successful login, reload, safe session fields, HttpOnly cookie, forged/expired tokens, logout and deleted-user access. Expected denial events can appear in server logs; user/session payloads are not logged by the custom logger.
+
+`npm run lint`, `npm run build` and `npm run typecheck` also pass. This is not a claim that newsletter ownership or publication checks are complete yet.

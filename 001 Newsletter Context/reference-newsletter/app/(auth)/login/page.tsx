@@ -1,11 +1,21 @@
-// Lab 5 p. 2: visual form reference only; no form UI or behaviour is implemented.
-// Source details and local lab references: README.md at the project root.
-export default function LoginPage() {
+import LoginForm from "@/app/components/LoginForm";
+
+type LoginPageProps = {
+	searchParams: Promise<{ registered?: string | string[] }>;
+};
+
+export default async function LoginPage({ searchParams }: LoginPageProps) {
+	const params = await searchParams;
+	const registered = params.registered === "1";
+
 	return (
-		<section className="space-y-4">
-			<p className="badge badge-outline">AI-generated reference shell</p>
-			<h1 className="text-3xl font-bold">Log in</h1>
-			<p>Login is not available. Authentication and form handling are not implemented.</p>
+		<section className="mx-auto w-full max-w-md space-y-5">
+			<div className="space-y-2 text-center">
+				<p className="badge badge-outline">Newsletter CMS</p>
+				<h1 className="text-3xl font-bold">Log in</h1>
+				<p className="text-base-content/70">Sign in to manage your newsletters.</p>
+			</div>
+			<LoginForm registered={registered} />
 		</section>
 	);
 }

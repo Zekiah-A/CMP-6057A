@@ -1,10 +1,16 @@
+import Link from "next/link";
+
 export default function HomePage() {
 	return (
-		<section className="space-y-4">
-			<p className="badge badge-outline">AI-generated reference</p>
+		<section className="space-y-5">
+			<p className="badge badge-outline">AI-generated reference · Slice 2</p>
 			<h1 className="text-3xl font-bold">Newsletter CMS</h1>
-			<p>Slice 1 contains the database schema and shared navigation shell only.</p>
-			<p>Authentication, newsletter listing and newsletter management are not implemented. The routes are available to inspect the shell.</p>
+			<p>Account registration, credential login and protected dashboard routes are available in this learning reference.</p>
+			<p>Newsletter listing, creation, editing and publication are planned for later slices.</p>
+			<div className="flex items-center gap-3">
+				<Link href="/register" className="btn btn-neutral">Create an account</Link>
+				<Link href="/newsletters" className="btn btn-ghost">Browse newsletters</Link>
+			</div>
 		</section>
 	);
 }
