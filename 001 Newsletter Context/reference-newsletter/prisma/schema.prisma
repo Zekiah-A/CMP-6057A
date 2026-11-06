@@ -1,0 +1,39 @@
+generator client {
+	provider = "prisma-client"
+	output   = "../app/generated/prisma"
+}
+
+datasource db {
+	provider = "postgresql"
+}
+
+// New adaptation of assessment brief v4, p. 3: newsletter fields and author ownership.
+// Lab 4.1 (02-4.1-Prisma-ORM.pdf), pp. 4–8 supplies the Prisma model/client pattern.
+model User {
+	id          String       @id @default(cuid())
+	email       String       @unique
+	name        String?
+	// Password hashes only; registration is implemented in slice 2.
+	password    String
+	newsletters Newsletter[]
+	createdAt   DateTime     @default(now())
+	updatedAt   DateTime     @updatedAt
+}
+
+model Newsletter {
+	id        String           @id @default(cuid())
+	title     String
+	content   String           @db.Text
+	image     String           @db.Text
+	status    NewsletterStatus @default(Draft)
+	authorId  String
+	author    User             @relation(fields: [authorId], references: [id])
+	createdAt DateTime         @default(now())
+	updatedAt DateTime         @updatedAt
+}
+
+enum NewsletterStatus {
+	Draft
+	Schedule
+	Sent
+}
