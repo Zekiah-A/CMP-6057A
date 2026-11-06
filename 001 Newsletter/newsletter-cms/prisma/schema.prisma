@@ -1,13 +1,40 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
+// Ref: Lab 4.1, p8 (Prisma-ORM.pdf) database schema setup
 generator client {
-  provider = "prisma-client"
-  output   = "../app/generated/prisma"
+	provider = "prisma-client"
+	output   = "../app/generated/prisma"
 }
 
 datasource db {
-  provider = "postgresql"
+	provider = "postgresql"
+}
+
+// Adaptation of assessment brief v4, p. 3: newsletter fields and author
+// Lab 4.1 (02-4.1-Prisma-ORM.pdf), pp. 4–8: Prisma model/client pattern.
+model User {
+	id String @id @default(cuid())
+	email String @unique
+	name String?
+	// String hash
+	password String
+	newsletters Newsletter[]
+	createdAt DateTime @default(now())
+	updatedAt DateTime @updatedAt
+}
+
+model Newsletter {
+	id String @id @default(cuid())
+	title String
+	content String @db.Text
+	image String @db.Text
+	status NewsletterStatus @default(Draft)
+	authorId String
+	author User @relation(fields: [authorId], references: [id])
+	createdAt DateTime @default(now())
+	updatedAt DateTime @updatedAt
+}
+
+enum NewsletterStatus {
+	Draft
+	Schedule
+	Sent
 }
