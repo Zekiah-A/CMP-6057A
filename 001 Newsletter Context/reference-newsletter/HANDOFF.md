@@ -1,4 +1,4 @@
-# Reference handoff — slice 2
+# Reference handoff — slice 3
 
 AI-generated reference, never submission work. Top-level repository is the module's personal GitHub backup. Work only in `001 Newsletter Context/reference-newsletter`; stage/commit only that path. No Stugit pushes. User authorised personal GitHub pushes.
 
@@ -8,7 +8,7 @@ Auth.js Credentials + JWT sessions; server reads/actions; no Redux. Tabs, named 
 
 ## Current slice
 
-Slice 2 complete: credentials registration, login/logout, isolated session cookies, session-aware navbar and independently protected dashboard pages. Newsletter CRUD/public feed remain unimplemented.
+Slice 3 complete: authenticated owner-only newsletter list/view/create/edit/delete/status. Shared controlled form uses useActionState. Public feed is still unimplemented.
 
 Verified 6 November 2026:
 - Reference-only login/database connection and schema synchronisation passed; User/Newsletter tables and author FK verified.
@@ -17,14 +17,14 @@ Verified 6 November 2026:
 - Wrong database, role, host and URL-override inputs were rejected by the connection guard.
 - Submission-file fingerprints unchanged. Real .env is ignored with permissions 0600; generated/dependency/build files excluded.
 
-Database and authentication are ready; pause for user review before slice 3. Auth integration browser checks pass; see README Verification for coverage and limitations.
+Database, authentication and dashboard CRUD are ready; pause for user review before slice 4. Auth integration browser checks pass; see README Verification for coverage and limitations.
 
-Slice 1 commit: 37fb247. Slice 2 commit message: `reference: add credentials authentication and dashboard guards`. Exact self-referential commit hashes cannot be embedded in the same commit; locate the latest slice using `git log --oneline -- "001 Newsletter Context/reference-newsletter"` from module root.
+Slice 1 commit: 37fb247. Slice 2 commit: 3c33283. Slice 3 commit message: `reference: add owner-isolated newsletter CRUD`. Exact self-referential commit hashes cannot be embedded in the same commit; locate the latest slice using `git log --oneline -- "001 Newsletter Context/reference-newsletter"` from module root.
 
 ## Next slices (only after review)
 
 2. Authentication complete. Keep checks inside actions as CRUD is added. Use gpt-6-luna low/medium for routine isolated work per latest user direction; stronger model only for demonstrated tricky auth issues.
-3. Author-owned newsletter CRUD/status; shared form, owner-filtered writes; no trust in submitted authorId.
+3. Dashboard CRUD complete. Read helpers in app/lib/newsletters.ts and actions in app/actions/newsletters.ts always verify the user/owner; no trust in submitted authorId.
 4. Public Sent-only feed, refresh correctness, browser checks and final source/rubric explanations.
 
 ## Interfaces and source facts
@@ -36,3 +36,7 @@ README Sources records full PDF names/pages/Blackboard links. Do not attribute a
 Auth contract: POST /api/auth/register takes {name?,email,password,confirmPassword}; 201 success, 400 invalid, 403 bad origin, 409 duplicate, 429 throttle. Client login/signOut use next-auth/react. requireUserId(): Promise<string> redirects missing/deleted users; session.user.id is a database cuid. Cookie prefix newsletter-reference; production reference uses local HTTP only. Browser check command npm run test:auth.
 
 Final slice-2 verification: all auth browser checks including registration throttling passed after the final build; guest registration desktop/390px mobile previews inspected with no horizontal overflow. Submission fingerprint check remains unchanged.
+
+Slice 3: lint/build/typecheck passed. Browser CRUD checks passed; run npm run test:newsletters. getOwnNewsletters/getOwnNewsletter perform owner checks. createNewsletter/updateNewsletter use (previousState, FormData), update bound to id; deleteNewsletter(id) ignores extra form arguments. NewsletterState is {error?,errors?}. Revalidate dashboard/public paths after mutations. No schema or auth changes.
+
+Mobile verification: signed-in create form checked at 390px, with no horizontal overflow. Home link is hidden on small screens (brand still links home); account label is truncated. No custom CSS added.

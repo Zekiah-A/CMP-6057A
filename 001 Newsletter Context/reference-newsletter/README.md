@@ -1,6 +1,6 @@
 # Newsletter reference — AI-generated learning material
 
-**Not submission work. Slice 2 of 4: credentials authentication.**
+**Not submission work. Slice 3 of 4: owner-isolated newsletter CRUD.**
 
 This isolated reference follows the module's minimum requirements using the student's existing route structure, dependencies, tabs and simple DaisyUI style. Do not copy it into the coursework/Stugit tree or represent it as independently authored work. No production-readiness claim is made.
 
@@ -10,7 +10,7 @@ This isolated reference follows the module's minimum requirements using the stud
 - PostgreSQL/Prisma schema describes the required users, newsletter fields, statuses and author relation.
 - Server-only client and CLI guards reject database URLs outside the local reference database/login.
 - Registration, login/logout and session-aware navigation now work. Dashboard and descendants require a verified session and an existing database user.
-- Newsletter CRUD and public publication are **not implemented yet**. Dashboard pages remain protected placeholders for slice 3.
+- Owner-isolated dashboard viewing, creation, editing, deletion and status updates now work. The public newsletter feed is **not implemented yet** (slice 4).
 
 ## Run locally
 
@@ -99,4 +99,19 @@ Files: `auth.ts`, `proxy.ts`, `app/lib/credentials.ts`, `app/lib/session.ts`, re
 
 Start the reference on port 3001, then `npm run test:auth` (uses Playwright and `/usr/bin/chromium`; set CHROMIUM_PATH for another installed Chromium). Run only against the reference database. The script creates a unique disposable account and deletes only that account afterwards. It checks guest denial on all dashboard pages, registration origin and password policy, optional-name UI signup, hash storage, duplicate normalisation, throttling, failed/successful login, reload, safe session fields, HttpOnly cookie, forged/expired tokens, logout and deleted-user access. Expected denial events can appear in server logs; user/session payloads are not logged by the custom logger.
 
-`npm run lint`, `npm run build` and `npm run typecheck` also pass. This is not a claim that newsletter ownership or publication checks are complete yet.
+`npm run lint`, `npm run build` and `npm run typecheck` also pass. Newsletter ownership checks are covered separately below; public publication remains for slice 4.
+
+## Slice 3: newsletter CRUD walkthrough
+
+From `/dashboard`, select **Create Newsletter**. Enter a title, plain-text content, optional image URL, and status (Draft by default). The server assigns the logged-in author; form-supplied author ids are ignored. The same `NewsletterForm` handles editing via a bound server action. Controlled inputs preserve your text when server validation fails. Pending state disables submit, and errors are returned to the form.
+
+The dashboard lists only your records, ordered by last update. **View newsletter** expands the full text without interpreting HTML; **Edit** changes fields/status; **Delete** requires browser confirmation. The image URL is stored/shown as text here; the public reader/image display comes in slice 4. Schedule is only a private status, not an automated timer. Sent can be selected now, but publication will not appear until the feed is implemented.
+
+- `app/lib/newsletters.ts`: verifies the database user, then filters every private read by author id. A missing or non-owned edit target gives 404 without leaking its content.
+- `app/actions/newsletters.ts`: each action independently calls `requireUserId()`. Updates/deletions constrain the actual database mutation by both record id and verified author id, checking the affected count. Bound action arguments and hidden controls do not replace this check.
+- `app/lib/newsletter-validation.ts`: server Zod checks apply even when client HTML is bypassed. Title ≤200 characters, content ≤20,000, image empty or HTTP(S) ≤2048 with no URL credentials, status strictly Draft/Schedule/Sent. Length limits are reference design choices; exact statuses are brief requirements.
+- Actions revalidate dashboard/public paths, then redirect outside their database-error catches. Revalidation prepares for the next slice; no API duplicates or client data store are introduced.
+
+Source pattern: Lab 4.1 pp14–18 (Prisma/server-action CRUD), Week 4 lecture pp59–64 (validation/action-state feedback). Newsletter ownership, statuses and fields are new adaptations of brief p3, not verbatim lab snippets. This slice addresses dashboard CRUD (15%) and supports security (15%) and structure (5%); those category weights do not imply this slice guarantees those marks.
+
+Run `npm run test:newsletters` with the app on port 3001. Two unique disposable accounts exercise create/view/edit/status/delete and are removed afterwards (only their records). The script tests forged authorId, another-user list/read denial, server rejection of invalid status, and replayed update/delete actions using another session or no session. Replays target a public URL to avoid relying solely on the dashboard proxy; tests check returned action denial and unchanged database rows. It also checks cancellation before the owner deletes the record. No existing data is reset.

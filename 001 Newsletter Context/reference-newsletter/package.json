@@ -12,7 +12,8 @@
 		"db:validate": "prisma validate",
 		"db:check": "node scripts/check-database.mjs",
 		"db:push": "npm run db:check && prisma db push",
-		"test:auth": "node scripts/check-auth.mjs"
+		"test:auth": "node scripts/check-auth.mjs",
+		"test:newsletters": "node scripts/check-newsletters.mjs"
 	},
 	"dependencies": {
 		"@prisma/adapter-pg": "^7.10.1",

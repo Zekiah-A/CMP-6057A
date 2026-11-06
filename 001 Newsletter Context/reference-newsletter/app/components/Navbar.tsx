@@ -37,7 +37,7 @@ export default function Navbar() {
 					{links.map(({ href, label }) => {
 						const active = pathname === href || (href !== "/" && pathname.startsWith(`${href}/`));
 						return (
-							<li key={href}>
+							<li key={href} className={href === "/" ? "hidden sm:list-item" : undefined}>
 								<Link href={href} aria-current={active ? "page" : undefined} className={`rounded-full${active ? " menu-active" : ""}`}>
 									{label}
 								</Link>
@@ -50,8 +50,8 @@ export default function Navbar() {
 				{authenticated ? (
 					<details className="dropdown dropdown-end">
 						<summary className="btn btn-sm btn-ghost h-10 min-h-10 rounded-full bg-base-200">
-							<span aria-hidden="true" className="grid size-6 place-items-center rounded-full bg-base-300 text-xs font-semibold">{initials}</span>
-							<span className="max-w-24 truncate">{name}</span>
+							<span aria-hidden="true" className="hidden size-6 sm:grid place-items-center rounded-full bg-base-300 text-xs font-semibold">{initials}</span>
+							<span className="max-w-16 truncate sm:max-w-24">{name}</span>
 						</summary>
 						<ul className="menu dropdown-content z-10 mt-2 w-48 rounded-box bg-base-200 p-2 shadow-sm">
 							<li><Link href="/dashboard">Dashboard</Link></li>
