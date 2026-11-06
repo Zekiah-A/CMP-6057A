@@ -1,4 +1,4 @@
-# Reference handoff — slice 3
+# Reference handoff — completed MVP
 
 AI-generated reference, never submission work. Top-level repository is the module's personal GitHub backup. Work only in `001 Newsletter Context/reference-newsletter`; stage/commit only that path. No Stugit pushes. User authorised personal GitHub pushes.
 
@@ -8,7 +8,7 @@ Auth.js Credentials + JWT sessions; server reads/actions; no Redux. Tabs, named 
 
 ## Current slice
 
-Slice 3 complete: authenticated owner-only newsletter list/view/create/edit/delete/status. Shared controlled form uses useActionState. Public feed is still unimplemented.
+All four slices implemented: authentication, owner-only CRUD and dynamic Sent-only public feed. Reference only, no submission files changed.
 
 Verified 6 November 2026:
 - Reference-only login/database connection and schema synchronisation passed; User/Newsletter tables and author FK verified.
@@ -17,19 +17,19 @@ Verified 6 November 2026:
 - Wrong database, role, host and URL-override inputs were rejected by the connection guard.
 - Submission-file fingerprints unchanged. Real .env is ignored with permissions 0600; generated/dependency/build files excluded.
 
-Database, authentication and dashboard CRUD are ready; pause for user review before slice 4. Auth integration browser checks pass; see README Verification for coverage and limitations.
+Database, authentication and dashboard CRUD are ready; minimum reference complete; user review and study next. Auth integration browser checks pass; see README Verification for coverage and limitations.
 
-Slice 1 commit: 37fb247. Slice 2 commit: 3c33283. Slice 3 commit message: `reference: add owner-isolated newsletter CRUD`. Exact self-referential commit hashes cannot be embedded in the same commit; locate the latest slice using `git log --oneline -- "001 Newsletter Context/reference-newsletter"` from module root.
+Slice 1 commit: 37fb247. Slice 2 commit: 3c33283. Slice 3 commit: bea5147. Final slice commit message: `reference: finish Sent-only public newsletter feed`. Exact self-referential commit hashes cannot be embedded in the same commit; locate the latest slice using `git log --oneline -- "001 Newsletter Context/reference-newsletter"` from module root.
 
 ## Next slices (only after review)
 
 2. Authentication complete. Keep checks inside actions as CRUD is added. Use gpt-6-luna low/medium for routine isolated work per latest user direction; stronger model only for demonstrated tricky auth issues.
 3. Dashboard CRUD complete. Read helpers in app/lib/newsletters.ts and actions in app/actions/newsletters.ts always verify the user/owner; no trust in submitted authorId.
-4. Public Sent-only feed, refresh correctness, browser checks and final source/rubric explanations.
+4. Public feed complete. getPublicNewsletters selects Sent/public fields only; author email excluded. force-dynamic page, browser images with fallback, escaped plain text.
 
 ## Interfaces and source facts
 
-User id is cuid string; name nullable; password stores hash. Newsletter has title/content/image/status/authorId/timestamps; enum Draft/Schedule/Sent. No scheduler or mail sending. Database generation goes to ignored `app/generated/prisma`. Root Prisma config loads dotenv; reference URL guards apply to config, runtime client and db check. Build does not query DB until later slices.
+User id is cuid string; name nullable; password stores hash. Newsletter has title/content/image/status/authorId/timestamps; enum Draft/Schedule/Sent. No scheduler or mail sending. Database generation goes to ignored `app/generated/prisma`. Root Prisma config loads dotenv; reference URL guards apply to config, runtime client and db check. The public dynamic feed and protected pages query the reference database at request time.
 
 README Sources records full PDF names/pages/Blackboard links. Do not attribute added ownership/security adaptation as verbatim lab code. No external fonts/assets or production services.
 
@@ -40,3 +40,7 @@ Final slice-2 verification: all auth browser checks including registration throt
 Slice 3: lint/build/typecheck passed. Browser CRUD checks passed; run npm run test:newsletters. getOwnNewsletters/getOwnNewsletter perform owner checks. createNewsletter/updateNewsletter use (previousState, FormData), update bound to id; deleteNewsletter(id) ignores extra form arguments. NewsletterState is {error?,errors?}. Revalidate dashboard/public paths after mutations. No schema or auth changes.
 
 Mobile verification: signed-in create form checked at 390px, with no horizontal overflow. Home link is hidden on small screens (brand still links home); account label is truncated. No custom CSS added.
+
+Final reset point: README contains source provenance, category coverage and limitations. npm test runs auth/CRUD/feed checks with isolated throwaway fixtures. Do not rerun implementation slices or introduce extras without user direction. Final changes only in context/reference-newsletter, committed/pushed to personal GitHub; no Stugit action.
+
+Final verification: auth suite, CRUD suite and feed suite passed. Final lint/build/typecheck passed. Feed browser tests confirmed Draft/Schedule data absent from guest response, author email excluded, plain-text escaping, broken-image fallback including pre-hydration cached failure, publish/unpublish/delete freshness and 390px layout. User-created reference data retained; only disposable test fixtures removed.

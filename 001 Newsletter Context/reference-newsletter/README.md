@@ -1,6 +1,6 @@
 # Newsletter reference — AI-generated learning material
 
-**Not submission work. Slice 3 of 4: owner-isolated newsletter CRUD.**
+**Not submission work. All four MVP slices implemented.**
 
 This isolated reference follows the module's minimum requirements using the student's existing route structure, dependencies, tabs and simple DaisyUI style. Do not copy it into the coursework/Stugit tree or represent it as independently authored work. No production-readiness claim is made.
 
@@ -10,7 +10,7 @@ This isolated reference follows the module's minimum requirements using the stud
 - PostgreSQL/Prisma schema describes the required users, newsletter fields, statuses and author relation.
 - Server-only client and CLI guards reject database URLs outside the local reference database/login.
 - Registration, login/logout and session-aware navigation now work. Dashboard and descendants require a verified session and an existing database user.
-- Owner-isolated dashboard viewing, creation, editing, deletion and status updates now work. The public newsletter feed is **not implemented yet** (slice 4).
+- Owner-isolated dashboard viewing, creation, editing, deletion and status updates now work. The public `/newsletters` feed now shows Sent records only.
 
 ## Run locally
 
@@ -58,6 +58,7 @@ Physical PDF pages refer to single-slide originals. Local paths are relative to 
 |---|---|---|
 | [001-Advanced-Web-Development-v4.pdf](../advanced-web-development/Assessment/Assessment%20briefs/001%20-%20Web%20Application%20Project%20Brief/ultraDocumentBody/_6068079_1/01-001-Advanced-Web-Development-v4.pdf) | pp2–3 minimum behaviour/schema; p5 deliverables; p7 rubric | [Brief](https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_6068079_1) |
 | [3.0.Next-TS-client-component-API-useEffect.pdf](../assessment-guidance/sources/01-3.0.Next-TS-client-component-API-useEffect.pdf) | pp3–6 setup; pp10–16 shared navbar | [Week 3 labs](https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5981788_1) |
+| [3.1.Next-continue-RTK.pdf](../assessment-guidance/sources/02-3.1.Next-continue-RTK.pdf) | pp3–8 newsletter list/detail display; public database projection is a new adaptation | [Week 3 labs](https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5981788_1) |
 | [4.1-Prisma-ORM.pdf](../assessment-guidance/sources/02-4.1-Prisma-ORM.pdf) | pp4–8 model/client/adapter; pp14–18 server-action CRUD for later slice | [Week 4 labs](https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5981790_1) |
 | [4.0-Next-Auth.pdf](../assessment-guidance/sources/01-4.0-Next-Auth.pdf) | pp12–17 Auth.js setup; used in slice 2 | [Week 4 labs](https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5981790_1) |
 | [5.0-Auth-custom-credentials-Auth.js.pdf](../assessment-guidance/sources/01-5.0-Auth-custom-credentials-Auth.js.pdf) | p2 appearance; pp4–9 hashing/registration; pp30–38 final Credentials/session pattern | [Week 5 lab](https://learn.uea.ac.uk/ultra/courses/_158570_1/outline?contentId=_5981792_1) |
@@ -99,13 +100,13 @@ Files: `auth.ts`, `proxy.ts`, `app/lib/credentials.ts`, `app/lib/session.ts`, re
 
 Start the reference on port 3001, then `npm run test:auth` (uses Playwright and `/usr/bin/chromium`; set CHROMIUM_PATH for another installed Chromium). Run only against the reference database. The script creates a unique disposable account and deletes only that account afterwards. It checks guest denial on all dashboard pages, registration origin and password policy, optional-name UI signup, hash storage, duplicate normalisation, throttling, failed/successful login, reload, safe session fields, HttpOnly cookie, forged/expired tokens, logout and deleted-user access. Expected denial events can appear in server logs; user/session payloads are not logged by the custom logger.
 
-`npm run lint`, `npm run build` and `npm run typecheck` also pass. Newsletter ownership checks are covered separately below; public publication remains for slice 4.
+`npm run lint`, `npm run build` and `npm run typecheck` also pass. Newsletter ownership checks are covered separately below; public publication is covered by the feed checks below.
 
 ## Slice 3: newsletter CRUD walkthrough
 
 From `/dashboard`, select **Create Newsletter**. Enter a title, plain-text content, optional image URL, and status (Draft by default). The server assigns the logged-in author; form-supplied author ids are ignored. The same `NewsletterForm` handles editing via a bound server action. Controlled inputs preserve your text when server validation fails. Pending state disables submit, and errors are returned to the form.
 
-The dashboard lists only your records, ordered by last update. **View newsletter** expands the full text without interpreting HTML; **Edit** changes fields/status; **Delete** requires browser confirmation. The image URL is stored/shown as text here; the public reader/image display comes in slice 4. Schedule is only a private status, not an automated timer. Sent can be selected now, but publication will not appear until the feed is implemented.
+The dashboard lists only your records, ordered by last update. **View newsletter** expands the full text without interpreting HTML; **Edit** changes fields/status; **Delete** requires browser confirmation. The image URL is shown as text in the dashboard and displayed with a fallback on the public feed. Schedule is only a private status, not an automated timer. Sent publishes immediately to the public feed; Draft and Schedule stay private.
 
 - `app/lib/newsletters.ts`: verifies the database user, then filters every private read by author id. A missing or non-owned edit target gives 404 without leaking its content.
 - `app/actions/newsletters.ts`: each action independently calls `requireUserId()`. Updates/deletions constrain the actual database mutation by both record id and verified author id, checking the affected count. Bound action arguments and hidden controls do not replace this check.
@@ -115,3 +116,28 @@ The dashboard lists only your records, ordered by last update. **View newsletter
 Source pattern: Lab 4.1 pp14–18 (Prisma/server-action CRUD), Week 4 lecture pp59–64 (validation/action-state feedback). Newsletter ownership, statuses and fields are new adaptations of brief p3, not verbatim lab snippets. This slice addresses dashboard CRUD (15%) and supports security (15%) and structure (5%); those category weights do not imply this slice guarantees those marks.
 
 Run `npm run test:newsletters` with the app on port 3001. Two unique disposable accounts exercise create/view/edit/status/delete and are removed afterwards (only their records). The script tests forged authorId, another-user list/read denial, server rejection of invalid status, and replayed update/delete actions using another session or no session. Replays target a public URL to avoid relying solely on the dashboard proxy; tests check returned action denial and unchanged database rows. It also checks cancellation before the owner deletes the record. No existing data is reset.
+
+## Slice 4: public publication and final coverage
+
+`getPublicNewsletters()` applies `status: "Sent"` in Prisma, selecting only public article fields plus the author's optional name. The browser never receives drafts, scheduled content, author email or password hashes through this feed. `/newsletters` renders dynamically; action path revalidation plus fresh public requests reflect publishing, editing, unpublishing and deletion. Updated date is labelled/displayed as a date, not a promised send timestamp.
+
+Cards show full plain text (HTML is escaped), author name or “Newsletter author”, date and image. `NewsletterImage` accepts only HTTP(S) URLs without credentials, uses the browser directly with no referrer, and replaces missing/broken images with text. The reference server does not fetch arbitrary image URLs through an optimisation proxy. External image hosts still receive the visitor's network request; this is not an upload system or a guarantee that a supplied image is licensed/safe. Use an image you may lawfully display.
+
+Source: brief p3's Sent-only requirement; Lab3.1 pp3–8 display pattern; Lab4.1 pp14–18 database reads. Status filtering, safe projection and image safeguards are project adaptations.
+
+| Minimum rubric category | Demonstrated reference behaviour | Main location |
+|---|---|---|
+| Registration 5% | Optional name, normalised email, password validation/hash and duplicate handling | `app/api/auth/register/route.ts` |
+| Security/route guarding 15% | Verified Auth.js JWT sessions, local throttling, logout, conditional navigation, dashboard proxy and independent operation checks | `auth.ts`, `proxy.ts`, `app/lib/session.ts` |
+| Schema 5% | PostgreSQL/Prisma, required fields, Draft default and User→Newsletter relation | `prisma/schema.prisma` |
+| Dashboard CRUD 15% | Owner list/view/create/edit/delete/status; forged ids do not confer permission | `app/dashboard`, `app/actions/newsletters.ts` |
+| Public feed 5% | Guest access, Sent-only database query, full content/image fallback and current publication state | `app/newsletters/page.tsx`, `getPublicNewsletters()` |
+| Structure/practices 5% | Shared form, small typed modules, server validation, pending/errors, readable source provenance | Shared components/lib/actions |
+
+Weights are category totals from brief p7, not a grade prediction. Desirable features and viva are not supplied by this minimum reference. No SMTP, automatic scheduling, OAuth, 2FA, roles, social interactions, rich text, deployment or final assessment artifacts have been added.
+
+### Final verification commands
+
+With the reference running at `http://localhost:3001`, run **`npm test`** for auth, CRUD and public-feed browser checks. It creates/removes only its unique fixture users/newsletters. `npm run test:feed` separately checks the guest HTML response excludes private fields/records, plain-text rendering, broken-image fallback, unpublish/publish/edit/delete freshness and a 390px viewport. `npm run lint`, `npm run build`, `npm run typecheck` and schema/connection checks complete the local verification.
+
+The tests demonstrate these scenarios in the local reference; they are not a comprehensive security audit. Study and explain each flow independently. Your own assessment video, architecture PDF, source submission and viva remain separate work.

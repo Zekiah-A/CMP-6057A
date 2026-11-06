@@ -17,12 +17,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 			<body className="flex min-h-screen flex-col bg-base-100 text-base-content">
 				<Providers>
 					<div className="bg-warning px-4 py-2 text-center text-sm font-semibold">
-						AI-generated reference · Slice 3: author-owned newsletter CRUD
+						AI-generated reference · Minimum-requirements learning MVP
 					</div>
 					<Navbar />
 					<main className="mx-auto w-full max-w-4xl flex-1 px-4 py-10">{children}</main>
 					<footer className="border-t border-base-300 px-4 py-4 text-center text-sm">
-						Newsletter CMS learning reference · Public newsletter feed is planned for the next slice
+						Newsletter CMS learning reference
 					</footer>
 				</Providers>
 			</body>

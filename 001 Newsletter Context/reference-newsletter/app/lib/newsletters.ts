@@ -16,3 +16,20 @@ export async function getOwnNewsletter(id: string) {
 	if (!newsletter) notFound();
 	return newsletter;
 }
+
+// Brief v4, p. 3: the public feed contains Sent newsletters only. Lab 4.1
+// (02-4.1-Prisma-ORM.pdf), pp. 14–18: server-side Prisma reads adapted here.
+export async function getPublicNewsletters() {
+	return prisma.newsletter.findMany({
+		where: { status: "Sent" },
+		select: {
+			id: true,
+			title: true,
+			content: true,
+			image: true,
+			updatedAt: true,
+			author: { select: { name: true } },
+		},
+		orderBy: [{ updatedAt: "desc" }, { id: "desc" }],
+	});
+}
