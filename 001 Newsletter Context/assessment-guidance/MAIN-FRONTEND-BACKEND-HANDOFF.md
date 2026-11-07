@@ -12,7 +12,7 @@ AI-generated maintenance notes, outside the Stugit submission tree. This records
 
 ## What works now
 
-- `/`: three recent Sent fixture cards in descending updated-date order, with links into the public feed. Vertical cards are the default pending the user's answer about overlapping DaisyUI cards.
+- `/`: up to five recent Sent newsletters in descending updated-date order, shown as an overlapping DaisyUI stack. Dismiss reveals the next card without deleting any data; covered cards are inert. The current fixtures contain three public newsletters. Dismissals reset when Home is remounted.
 - `/newsletters`: full public cards; title/content/author search; unique-author filter; newest/oldest/title ordering; reset; result count; no-results state; Ctrl/Command+K shortcut.
 - `/register`, `/login`: full-width centred forms within `max-w-md`, labels, browser validation and existing pending/error handling. Login displays the success message for `?registered=1`.
 - `/dashboard`: newsletter cards, search, status filter, Create/View/Edit/Delete controls and empty states.

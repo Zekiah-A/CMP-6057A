@@ -1,5 +1,5 @@
 import Link from "next/link";
-import NewsletterCard from "./components/NewsletterCard";
+import RecentNewsletters from "./components/RecentNewsletters";
 import { publicNewsletters } from "./lib/preview-newsletters";
 
 type HomeProps = {
@@ -8,7 +8,7 @@ type HomeProps = {
 
 function HomeContent({ user = null }: HomeProps) {
 	const recent = publicNewsletters.filter((newsletter) => newsletter.status === "Sent")
-		.toSorted((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt)).slice(0, 3);
+		.toSorted((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt)).slice(0, 5);
 
 	return (
 		<>
@@ -30,10 +30,8 @@ function HomeContent({ user = null }: HomeProps) {
 			</section>
 			<section aria-labelledby="recent-posts" className="space-y-6">
 				<h2 id="recent-posts" className="text-2xl font-semibold">Recent Posts</h2>
-				{/* Ref: Lab 3.1 pp. 3–8: mapped newsletter cards. Vertical stack keeps every post readable. */}
-				<div className="flex flex-col gap-6">
-					{recent.map((newsletter) => <NewsletterCard key={newsletter.id} newsletter={newsletter} compact />)}
-				</div>
+				{/* Ref: Lab 3.1 pp. 3–8: typed newsletter cards, presented using DaisyUI's stack. */}
+				<RecentNewsletters newsletters={recent} />
 			</section>
 		</>
 	);
