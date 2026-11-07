@@ -9,7 +9,7 @@ datasource db {
 }
 
 // Adaptation of assessment brief v4, p. 3: newsletter fields and author
-// Lab 4.1 (02-4.1-Prisma-ORM.pdf), pp. 4–8: Prisma model/client pattern.
+// Lab 4.1 (02-4.1-Prisma-ORM.pdf), pp. 4–8: Prisma model/client pattern - Zekiah
 model User {
 	id String @id @default(cuid())
 	email String @unique

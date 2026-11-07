@@ -18,7 +18,7 @@ export default function Home({ user = null }: HomeProps) {
 				<Link className="btn rounded-full" href="/newsletters">
 					Browse newsletters
 				</Link>
-				{/* These links change based on auth state - Zekiah */}
+				{/* Links change based on auth state - Zekiah */}
 				{user ? (
 					<>
 						<Link className="btn rounded-full" href="/dashboard/create">

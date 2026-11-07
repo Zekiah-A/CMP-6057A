@@ -1,3 +1,5 @@
+import LoginForm from "@/app/components/LoginForm";
+
 export default function LoginPage() {
 	return (
 		<>
@@ -6,9 +8,7 @@ export default function LoginPage() {
 				<p className="text-base-content/70">Log into your account, and make and manage newsletters.</p>
 			</section>
 			<section className="mx-auto">
-				<form className="flex flex-col max-w-md rounded-2xl border border-base-300 bg-base-100 p-6 shadow-sm sm:p-8 gap-1">
-
-				</form>
+				<LoginForm />
 			</section>
 		</>
 	);
