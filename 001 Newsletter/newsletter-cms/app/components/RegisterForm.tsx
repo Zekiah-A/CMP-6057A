@@ -11,7 +11,7 @@ type RegistrationResponse = {
 	errors?: Partial<Record<FieldName, string>>;
 };
 
-// Lab 5 pp. 18–23: labelled registration form and inline feedback, adapted to the reference API - Zekiah
+// Lab 5 pp. 18–23: labelled registration form and inline feedback, adapted to the registration endpoint - Zekiah
 export function RegisterForm() {
 	const router = useRouter();
 	const formRef = useRef<HTMLFormElement>(null);
@@ -96,23 +96,23 @@ export function RegisterForm() {
 
 	return (
 		// Ref: https://daisyui.com/components/card/ Inspired by daisyUI card component - Zekiah
-		<form ref={formRef} onSubmit={handleSubmit} className="flex flex-col max-w-md rounded-2xl border border-base-300 bg-base-100 p-6 shadow-sm sm:p-8 gap-1">
+		<form ref={formRef} onSubmit={handleSubmit} className="flex w-full flex-col gap-4 rounded-2xl border border-base-300 bg-base-100 p-6 shadow-sm sm:p-8">
 			{/* Ref: https://daisyui.com/components/input/?lang=en Inspired by Text input and With fieldset and fieldset-legend demo
 				validation UI interactivity from https://daisyui.com/components/validator/ - Zekiah */}
-			<fieldset className="fieldset">
-				<legend className="fieldset-legend">What is your name?</legend>
-				<input type="text" name="name" className="input" placeholder="John Doe" onInput={clearValidity} />
+			<fieldset className="fieldset w-full gap-2 p-0">
+				<legend className="fieldset-legend text-sm font-medium"><label htmlFor="name">What is your name?</label></legend>
+				<input type="text" id="name" name="name" autoComplete="name" maxLength={80} className="input w-full" placeholder="John Doe" onInput={clearValidity} />
 				<p className="label">Optional</p>
 			</fieldset>
-			<fieldset className="fieldset">
-				<label className="label" htmlFor="email">Email*</label>
-				<input type="email" name="email" id="email" className="input validator" required onInput={clearValidity} />
+			<fieldset className="fieldset w-full gap-2 p-0">
+				<label className="text-sm font-medium" htmlFor="email">Email*</label>
+				<input type="email" autoComplete="email" maxLength={254} name="email" id="email" className="input validator w-full" required onInput={clearValidity} />
 				<span className="validator-hint hidden">Enter valid email address</span>
 			</fieldset>
-			<fieldset className="fieldset">
-				<label className="label" htmlFor="password">Password*</label>
-				<input type="password" name="password" id="password" ref={passwordRef}
-					className="input validator" required minLength={8}
+			<fieldset className="fieldset w-full gap-2 p-0">
+				<label className="text-sm font-medium" htmlFor="password">Password*</label>
+				<input type="password" autoComplete="new-password" name="password" id="password" ref={passwordRef}
+					className="input validator w-full" required minLength={8}
 					pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
 					title="Must be at least 8 characters, including a number, lowercase letter and uppercase letter"
 					onInput={(event) => {
@@ -126,10 +126,10 @@ export function RegisterForm() {
 					<br/>At least one uppercase letter
 				</p>
 			</fieldset>
-			<fieldset className="fieldset">
-				<label className="label" htmlFor="confirmPassword">Confirm Password*</label>
-				<input type="password" name="confirmPassword" id="confirmPassword"
-					ref={confirmPasswordRef} className="input validator" required
+			<fieldset className="fieldset w-full gap-2 p-0">
+				<label className="text-sm font-medium" htmlFor="confirmPassword">Confirm Password*</label>
+				<input type="password" autoComplete="new-password" name="confirmPassword" id="confirmPassword"
+					ref={confirmPasswordRef} className="input validator w-full" required
 					onInput={(event) => {
 						clearValidity(event);
 						if (passwordRef.current && event.currentTarget.value !== passwordRef.current.value) {
@@ -138,7 +138,7 @@ export function RegisterForm() {
 					}} />
 			</fieldset>
 			{formError && <p role="alert" className="text-error text-sm">{formError}</p>}
-			<button type="submit" className="btn" disabled={pending}>
+			<button type="submit" className="btn btn-neutral w-full rounded-full" disabled={pending}>
 				{pending ? "Registering..." : "Register"}
 			</button>
 		</form>

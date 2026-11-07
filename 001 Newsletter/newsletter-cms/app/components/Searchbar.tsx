@@ -2,7 +2,12 @@
 
 import { useEffect, useRef } from "react";
 
-export default function Searchbar() {
+type SearchbarProps = {
+	value: string;
+	onChange: (value: string) => void;
+};
+
+export default function Searchbar({ value, onChange }: SearchbarProps) {
 	const inputRef = useRef<HTMLInputElement>(null);
 	useEffect(() => {
 		const handleKeyDown = (event: KeyboardEvent) => {
@@ -17,11 +22,10 @@ export default function Searchbar() {
 	}, []);
 
 	return (
-		<label className="input">
-			{/* Search SVG and Input here */}
-			<input type="search" className="grow" placeholder="Search" ref={inputRef} />
-			<kbd className="kbd kbd-sm">⌘</kbd>
-			<kbd className="kbd kbd-sm">K</kbd>
+		<label className="input w-full sm:max-w-sm">
+			<input type="search" className="grow min-w-0" placeholder="Search newsletters" aria-label="Search newsletters" ref={inputRef}
+				value={value} onChange={(event) => onChange(event.target.value)} />
+			<kbd className="kbd kbd-sm hidden sm:inline-flex">Ctrl/⌘ K</kbd>
 		</label>
 	);
 }
